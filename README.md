@@ -14,6 +14,10 @@ Deploy:
 		git push heroku master
 		heroku open
 
+Serve locally:
+
+		bundle exec jekyll serve
+
 
 ## References
 - [Jekyll on Heroku](https://blog.heroku.com/jekyll-on-heroku)
