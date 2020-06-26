@@ -2,7 +2,7 @@
 layout: post
 title:  "Functional requirements"
 date:   2020-05-09
-categories: innovation
+categories: engineering management
 ---
 MANAGING A TEAM of intelligent, ambitious people is challenging. I have had the good fortune to work with software engineers and data scientists who are some of the smartest, most capable people in their field. In my experience, managers place a great amount of trust in the capabilities of the team members they hire. The team reciprocates this trust by working with creativity and vigor to solve difficult problems.
 
