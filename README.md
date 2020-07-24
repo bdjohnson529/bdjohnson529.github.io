@@ -8,6 +8,11 @@ Serve locally:
 
 		bundle exec jekyll serve
 
+Publish to Github pages:
+
+		git push homepage master
+
+
 Configure Git repo for Heroku deployment.
 
 		heroku git:remote -a myherokusite
