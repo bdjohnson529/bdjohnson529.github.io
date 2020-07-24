@@ -24,7 +24,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   Technical product management.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: bdjohnson529
 github_username:  bdjohnson529
 
 # Build settings
