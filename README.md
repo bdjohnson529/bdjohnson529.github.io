@@ -4,6 +4,10 @@ This is a Jekyll blog, deployed on Heroku. Documentation is included to demonstr
 
 
 ## Deployment
+Serve locally:
+
+		bundle exec jekyll serve
+
 Configure Git repo for Heroku deployment.
 
 		heroku git:remote -a myherokusite
@@ -14,9 +18,7 @@ Deploy:
 		git push heroku master
 		heroku open
 
-Serve locally:
 
-		bundle exec jekyll serve
 
 
 ## References

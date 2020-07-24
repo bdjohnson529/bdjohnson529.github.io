@@ -4,11 +4,9 @@ title:  "Functional requirements"
 date:   2020-05-09
 categories: innovation
 ---
-MANAGING A TEAM of intelligent, ambitious people is challenging. I have had the good fortune to work with software engineers and data scientists who are some of the smartest, most capable people in their field. In my experience, managers place a great amount of trust in the capabilities of the team members they hire. The team reciprocates this trust by working with creativity and vigor to solve difficult problems.
+BUILDING EXCEPTIONAL PRODUCTS IS HARD. I have had the good fortune to work with software engineers and data scientists who are some of the smartest, most capable people in their field. On several projects, the team worked together to build an amazing product, only to discover that the final product did not solve the customer's needs. In some instances, the engineering team delivered a product which was different from the solution envisioned by the product team. Occasionally, the product team got what they asked for but the product did not acheive the anticipated results with the customer.
 
- On several projects, the team worked together to build an amazing product, only to discover that the final product did not solve the customer's needs. In some instances, the engineering team delivered a product which was different from the solution envisioned by the product team. Occasionally, the product team got what they asked for but the product did not acheive the anticipated results with the customer.
-
-Functional requirements improve communication within the engineering team. There are numerous ancillary benefits of documenting functional requirements. Below I have laid out a framework for functional requirements which can be used by teams building digital products of any sort. I advocate for the use of functional requirements on both software engineering and data science teams. 
+Functional requirements improve communication between the engineering team and the product team. There are numerous ancillary benefits of documenting functional requirements. Below I have laid out a framework for functional requirements which can be used by teams building digital products of any sort. I advocate for the use of functional requirements on both software engineering and data science teams. 
 
 1. **Begin with a user story.**
 <br><br>The product exists for the user, and the ultimate motivation for any technical task should be its impact on the user. Any new software engineering features should improve the user experience. Data science projects should also seek to answer questions which will impact the user.
