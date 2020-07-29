@@ -2,6 +2,8 @@
 title: "Intro to Python"
 layout: default
 permalink: /tutorials/intro-to-python/
+link: "tutorial"
+excerpt: "Python programming for data analysts."
 ---
 
 

@@ -22,7 +22,8 @@ include: ['_includes',
           'tutorials',
           'tutorials/intro-to-python', 
           'tutorials/intro-to-python/exercises',
-          'tutorials/intro-to-python/notes']
+          'tutorials/intro-to-python/notes',
+          'gitcmd']
 
 title: Ben Johnson
 email: 
