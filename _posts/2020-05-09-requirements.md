@@ -2,7 +2,7 @@
 layout: post
 title:  "Functional requirements"
 date:   2020-05-09
-categories: engineering management
+categories: product-management
 ---
 BUILDING EXCEPTIONAL PRODUCTS IS HARD. I have had the good fortune to work with software engineers and data scientists who are some of the smartest, most capable people in their field. On several projects, the team worked together to build an amazing product, only to discover that the final product did not solve the customer's needs. In some instances, the engineering team delivered a product which was different from the solution envisioned by the product team. Occasionally, the product team got what they asked for but the product did not acheive the anticipated results with the customer.
 
