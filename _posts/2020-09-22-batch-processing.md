@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Production Batch Processing
+title: Production batch processing
 date:   2020-09-22
 categories: engineering-management
 ---
