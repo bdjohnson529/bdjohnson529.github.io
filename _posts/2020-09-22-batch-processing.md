@@ -67,6 +67,8 @@ Taking into account the above framework, most of our programs resemble the file 
 |	├── Exploratory-Notebooks.ipynb
 ├── logs
 |	├── execution_logs.csv
+├── docs
+|	├── additional_documentation.md
 ├── src
 |	├── __init__.py
 |	├── module.py
