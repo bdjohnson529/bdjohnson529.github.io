@@ -54,7 +54,7 @@ As our dictionary grows, the time it takes to search the lookup table will also 
 
 Dictionaries actually use **hash tables** to store and retrieve information. A hashing function generates a number for each key in the dictionary. The hash is then mapped to an address block. To look up the value `buildingInfo["Vintage"]`, the Python interpreter computes the hash of the string "Vintage". The interpreter uses this hash to look up the address of the value. Hash tables have `O(1)` complexity, meaning that the lookup time remains constant, regardless of the size of the dictionary.
 
-![Hashes](https://github.com/bdjohnson529/Intro-To-Python/blob/master/src/images/hashes.png "Hashes")
+![Hashes](images/hashes.png "Hashes")
 
 ## Mutable and Immutable Objects
 
@@ -62,7 +62,7 @@ A closely related concept is **"mutability"** of objects. When you declare a var
 
 Let's say we initialize the variable `name = "Ben"`. The string "Ben" is stored in memory, starting at byte 1000. The variable `name` now points at address 1000. When you access the variable `name`, the Python interpreter looks up the starting address 1000, reads the bytes at this address, and returns the value `"Ben"`.
 
-![Name](https://github.com/bdjohnson529/Intro-To-Python/blob/master/src/images/ben.png "Ben")
+![Name](images/ben.png "Ben")
 
 What happens if you change the value of the variable `name`? Let's say we perform the following two operations in sequence.
 

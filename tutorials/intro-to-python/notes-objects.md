@@ -123,5 +123,3 @@ While the Python interpreter is executing a Python program, it stores the values
 ## Python Interpreter
 
 When you execute a Python command, the command is passed to the Python interpreter. The interpreter converts your Python command into another lanugage, such as C, which compiles to assembler code. Finally, your CPU reads and executes the assembler code. For more detail on the Python interpreter, the introductory pages of [these lecture notes from UCI](https://www.ics.uci.edu/~brgallar/week9_3.html) are brilliant.
-
-![Compilation](https://github.com/bdjohnson529/Intro-To-Python/blob/master/src/images/compilation.png "Compilation")
