@@ -27,3 +27,4 @@ You should see a list of common Git commands.
 * [Sync Remote Repo](sync-remote.html)
 * [Branching Workflow](branching-workflow.html)
 * [Advanced Commands](advanced-commands.html)
+* [Modifying Commit Messages](modifying-commit-messages.html)
