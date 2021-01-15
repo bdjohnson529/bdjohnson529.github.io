@@ -12,6 +12,8 @@ excerpt: "Notes from learning Ruby on Rails."
 ## Notes
 * [Add Bootstrap](add-bootstrap.md)
 * [Interact with sqlite3 db](sqlite-db.md)
+* [Ruby configuration](ruby-config.md)
+
 
 ## Resources
 
