@@ -30,3 +30,4 @@ excerpt: "Notes from learning Ruby on Rails."
 * [Modeling users](https://rails-3-2.railstutorial.org/book/modeling_users)
 * [ActiveRecord::Associations](https://api.rubyonrails.org/classes/ActiveRecord/Associations/ClassMethods.html)
 * [Routes: Nested Resources](https://guides.rubyonrails.org/routing.html#nested-resources)
+* [Distance between coordinates in javascript](https://stackoverflow.com/q/18883601/9080991)
