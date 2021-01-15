@@ -29,3 +29,4 @@ excerpt: "Notes from learning Ruby on Rails."
 * [Leran bulma in 5 minutes](https://www.freecodecamp.org/news/learn-bulma-in-5-minutes-ec5188c53e83/)
 * [Modeling users](https://rails-3-2.railstutorial.org/book/modeling_users)
 * [ActiveRecord::Associations](https://api.rubyonrails.org/classes/ActiveRecord/Associations/ClassMethods.html)
+* [Routes: Nested Resources](https://guides.rubyonrails.org/routing.html#nested-resources)
