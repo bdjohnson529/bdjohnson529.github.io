@@ -31,3 +31,4 @@ excerpt: "Notes from learning Ruby on Rails."
 * [ActiveRecord::Associations](https://api.rubyonrails.org/classes/ActiveRecord/Associations/ClassMethods.html)
 * [Routes: Nested Resources](https://guides.rubyonrails.org/routing.html#nested-resources)
 * [Distance between coordinates in javascript](https://stackoverflow.com/q/18883601/9080991)
+* [Enforcing Coding Conventions with Husky Pre-commit Hooks]9https://khalilstemmler.com/blogs/tooling/enforcing-husky-precommit-hooks/)

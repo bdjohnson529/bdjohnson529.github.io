@@ -28,3 +28,4 @@ You should see a list of common Git commands.
 * [Branching Workflow](branching-workflow.html)
 * [Advanced Commands](advanced-commands.html)
 * [Modifying Commit Messages](modifying-commit-messages.html)
+* [Git hooks](git-hooks.md)
