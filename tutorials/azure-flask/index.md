@@ -1,0 +1,22 @@
+---
+title: "Flask deployment on Azure"
+layout: default
+permalink: /tutorials/azure-flask/
+link: "tutorial"
+excerpt: "Notes from deploying python apps on Azure"
+---
+# Flask deployment on Azure
+The Flask application will need the following files:
+```bash
+requirements.txt
+.gitignore
+Procfile
+azure-pipelines.yaml
+```
+
+
+## Notes
+* [Web app primer](web-app-primer.md)
+
+## Resources
+* [Starter Site for Flask On Azure Web Apps](http://timmyreilly.azurewebsites.net/starter-site-for-flask-on-azure-web-apps/)
