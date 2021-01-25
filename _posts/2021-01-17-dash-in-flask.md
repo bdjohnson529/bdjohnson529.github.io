@@ -4,7 +4,6 @@ title:  "Flask apps with Dash pages"
 date:   2021-01-17
 categories: software-engineering
 ---
-# Flask Apps with Dash Pages
 Dash is a nifty data science visualization library for Python. A quick glance at the [Dash app gallery](https://dash-gallery.plotly.host/Portal/) reveals a host of visualizations which are both visually appealing and practical. Notable visuals include bar charts which users can zoom in and out of, point clouds, image segmentaiton, and plenty more visuals which represent visually some of the cutting-edge data science tools.
 
 Believe it or not, Dash is actually built on Flask, the Python web application framework which is considered the featherweight cousin on Django. Each Dash app is actually an instance of a Flask application. This is great news for anyone who is familiar with one of the technologies because it means, in theory, the other will be similar.
@@ -19,7 +18,7 @@ def test():
 
 Flask will route a post request at the URL `/test` to the function `test()`, which returns a value of `"Hello world"` to the user. tldr: The user will see `Hello world` on their screen.
 
-In a similar style,  Dash offers callback decorators for functions. A callback function which is passed as an argument to a parent function - when the parent function finishes executing, it calls the callback function. Using callbacks in Dash, you can update variables in response to user behavior. For example, if a user changes the value of a dropdown menu, you can set the figures on the page to refresh.
+In a similar style,  Dash offers callback decorators for functions. A callback function is a function which is passed as an argument to a parent function - when the parent function finishes executing, it calls the callback function. Using callbacks in Dash, you can update variables in response to user behavior. For example, if a user changes the value of a dropdown menu, you can set the figures on the page to refresh.
 
 ```python
 @app.callback(
@@ -30,7 +29,7 @@ def update_figure():
 	return newbarchart
 ```
 
-When the input variable changes, the callback is invoked. The function sets `barchart` equal to the output of the function `newbarchart`. Note that you can use callbacks with multiple outputs, you just need to identify each output within the callback decorator `@app.callback` and also return the output from the function.
+When the input variable changes, the callback is invoked. The function sets `barchart` equal to the output of the function. Note that you can use callbacks with multiple outputs, you just need to identify each output within the callback decorator `@app.callback` and also return the output from the function.
 
 
 ## Multiple Dash Pages?
