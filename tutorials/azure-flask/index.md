@@ -17,6 +17,8 @@ azure-pipelines.yaml
 
 ## Notes
 * [Web app primer](web-app-primer.md)
+* [Windows subsystem for linux configuration](wsl.md)
+* [Containerization](containerization.md)
 
 ## Resources
 * [Starter Site for Flask On Azure Web Apps](http://timmyreilly.azurewebsites.net/starter-site-for-flask-on-azure-web-apps/)
