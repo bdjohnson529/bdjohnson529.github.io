@@ -24,3 +24,4 @@ docker run --rm -p 8080:8080 testrepo/testcontainer:1.0.0.0
 
 # Further reading
 * [Python like a pro - build Docker containers](https://tanzu.vmware.com/developer/guides/python/cnb-gs-python/)
+* [How to remove docker images containers and volumes](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes)
