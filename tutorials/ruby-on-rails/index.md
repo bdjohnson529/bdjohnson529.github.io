@@ -13,6 +13,8 @@ excerpt: "Notes from learning Ruby on Rails."
 * [Add Bootstrap](add-bootstrap.md)
 * [Interact with sqlite3 db](sqlite-db.md)
 * [Ruby configuration](ruby-config.md)
+* [Ajax with ruby on rails](ajax.md)
+
 
 
 ## Resources
@@ -31,4 +33,6 @@ excerpt: "Notes from learning Ruby on Rails."
 * [ActiveRecord::Associations](https://api.rubyonrails.org/classes/ActiveRecord/Associations/ClassMethods.html)
 * [Routes: Nested Resources](https://guides.rubyonrails.org/routing.html#nested-resources)
 * [Distance between coordinates in javascript](https://stackoverflow.com/q/18883601/9080991)
-* [Enforcing Coding Conventions with Husky Pre-commit Hooks]9https://khalilstemmler.com/blogs/tooling/enforcing-husky-precommit-hooks/)
+* [Enforcing Coding Conventions with Husky Pre-commit Hooks](https://khalilstemmler.com/blogs/tooling/enforcing-husky-precommit-hooks/)
+* [What Are Rails Parameters & How to Use Them Correctly](https://www.rubyguides.com/2019/06/rails-params/)
+* [Working with JavaScript in Rails](https://guides.rubyonrails.org/working_with_javascript_in_rails.html)
