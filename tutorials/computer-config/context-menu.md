@@ -1,9 +1,6 @@
 ---
 title: "Context Menu"
 layout: default
-permalink: /tutorials/context-menu/
-link: "tutorial"
-excerpt: "Configure the Windows context menu."
 ---
 # Configure the Windows Context Menu
 The Windows context menu is the menu which appears when you right click in the Windows file explorer. The menu can be customized to launch new applications. Adding applications to the context menu saves time!
