@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Data engineering unit tests"
-date:   2020-07-24
-categories: product-management
+parent: Data Engineering
+parent_path: /tutorials/data-engineering
 ---
 
 One of the greatest challenges for a maturing engineering team is to continue building, without breaking what has already been built. Architects need to make sure that a new addition to a building will not collapse the existing structure. Software engineers need to verify to that a new piece of code will not disrupt the existing code set. And data engineers need to verify that additions, or changes, to one part of the data product do not disturb the rest of the data product.

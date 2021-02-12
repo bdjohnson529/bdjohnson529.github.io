@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Python Dictionaries"
-categories: python
+parent: Intro to Python
+parent_path: /tutorials/intro-to-python/
 ---
 
 # Dictionaries

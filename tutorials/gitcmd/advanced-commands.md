@@ -1,6 +1,8 @@
 ---
 title: "Advanced Git commands"
 layout: default
+parent: CMD Git
+parent_path: /tutorials/gitcmd/
 ---
 
 # Advanced Git

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Production batch processing
-date:   2020-09-22
-categories: engineering-management
+parent: Data Engineering
+parent_path: /tutorials/data-engineering
 ---
 
 ### What is batch processing?

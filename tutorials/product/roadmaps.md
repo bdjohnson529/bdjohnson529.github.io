@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Technical roadmaps"
-date:   2020-04-25
-categories: product-management
+parent: Product
+parent_path: /tutorials/product/
 ---
 SMALL ENGINEERING TEAMS usually have an enormous backlog of new products and features, especially when they are experiencing rapid growth. The natural response to this pressure is to quickly build a minimum viable solution for each product or feature, and then move on to the next solution. However, I think there are advantages to be had by taking the time to formalize a technical plan for the product.
 

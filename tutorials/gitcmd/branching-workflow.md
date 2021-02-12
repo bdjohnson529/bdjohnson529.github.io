@@ -1,6 +1,8 @@
 ---
 title: "Branching workflow"
 layout: default
+parent: CMD Git
+parent_path: /tutorials/gitcmd/
 ---
 
 # Git Branching Workflow

@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Python Installation"
-categories: python
+parent: Intro to Python
+parent_path: /tutorials/intro-to-python/
 ---
 
 # Installation and Setup

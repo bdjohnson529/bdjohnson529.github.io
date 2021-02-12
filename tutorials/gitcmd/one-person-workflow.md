@@ -1,6 +1,8 @@
 ---
 title: "One person workflow"
 layout: default
+parent: CMD Git
+parent_path: /tutorials/gitcmd/
 ---
 
 # Git One-person Workflow

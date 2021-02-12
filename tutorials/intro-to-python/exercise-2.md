@@ -1,6 +1,8 @@
 ---
 title: "Exercise 2"
 layout: default
+parent: Intro to Python
+parent_path: /tutorials/intro-to-python/
 ---
 
 # Exercises - Week 2

@@ -1,6 +1,8 @@
 ---
 title: "Context Menu"
 layout: default
+parent: SDE
+parent_path: /tutorials/software-development/
 ---
 # Configure the Windows Context Menu
 The Windows context menu is the menu which appears when you right click in the Windows file explorer. The menu can be customized to launch new applications. Adding applications to the context menu saves time!

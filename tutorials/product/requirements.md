@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Functional requirements"
-date:   2020-05-09
-categories: product-management
+parent: Product
+parent_path: /tutorials/product/
 ---
 Functional requirements improve communication between the engineering team and the product team. There are numerous ancillary benefits of documenting functional requirements. Below I have laid out a framework for functional requirements which can be used by teams building digital products of any sort. I advocate for the use of functional requirements on both software engineering and data science teams. 
 

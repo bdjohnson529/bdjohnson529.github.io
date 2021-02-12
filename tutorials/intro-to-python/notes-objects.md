@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Python Objects"
-categories: python
+parent: Intro to Python
+parent_path: /tutorials/intro-to-python/
 ---
 
 # Variables and Strings

@@ -1,6 +1,8 @@
 ---
 title: "Containerization of Flask apps"
 layout: default
+parent: Web Applications
+parent_path: /tutorials/web-applications/
 ---
 # Deployment of Flask on Linux
 We will use buildpacks to generate a Docker image of our source code. Make sure that Docker is installed and [configured for WSL2](wsl.md).

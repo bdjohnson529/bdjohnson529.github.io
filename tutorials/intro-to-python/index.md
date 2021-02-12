@@ -1,13 +1,14 @@
 ---
 title: "Intro to Python"
 layout: default
-permalink: /tutorials/intro-to-python/
 link: "tutorial"
-excerpt: "Python programming for data analysts."
+excerpt: "Python tutorial for data analysts."
+parent: Intro to Python
+parent_path: /tutorials/intro-to-python/
 ---
 
 
-# Intro-To-Python
+# Introduction To Python
 
 This repository offers a introduction into Python programming. The course was designed to teach the following topics:
 

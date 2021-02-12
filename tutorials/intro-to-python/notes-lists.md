@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Lists"
-categories: python
+parent: Intro to Python
+parent_path: /tutorials/intro-to-python/
 ---
 
 # Lists

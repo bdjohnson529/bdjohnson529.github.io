@@ -1,6 +1,8 @@
 ---
 title: "Sync remote"
 layout: default
+parent: CMD Git
+parent_path: /tutorials/gitcmd/
 ---
 
 # Git Remote Workflow
