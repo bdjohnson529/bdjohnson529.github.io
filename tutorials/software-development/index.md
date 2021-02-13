@@ -9,8 +9,6 @@ parent_path: /tutorials/software-development/
 
 # Windows SDE
 
-Software development environments are the collection of 
-
 
 ## [Context Menu](context-menu.html)
 ## [Python Linting in Sublime](python-linting.html)
