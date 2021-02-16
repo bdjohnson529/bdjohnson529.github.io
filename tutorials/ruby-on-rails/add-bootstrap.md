@@ -1,6 +1,8 @@
 ---
 title: "Add bootstrap to ruby on rails 6"
 layout: default
+parent: Ruby on Rails
+parent_path: /tutorials/ruby-on-rails
 ---
 # Add bootstrap to ruby on rails 6
 

@@ -1,19 +1,21 @@
 ---
 title: "Ruby on Rails"
 layout: default
-permalink: /tutorials/rubyonrails/
+permalink: /tutorials/ruby-on-rails/
 link: "tutorial"
 excerpt: "Notes from learning Ruby on Rails."
+parent: Ruby on Rails
+parent_path: /tutorials/ruby-on-rails
 ---
 
 # Ruby on Rails
 
 
 ## Notes
-* [Add Bootstrap](add-bootstrap.md)
-* [Interact with sqlite3 db](sqlite-db.md)
-* [Ruby configuration](ruby-config.md)
-* [Ajax with ruby on rails](ajax.md)
+* [Add Bootstrap](add-bootstrap.html)
+* [Interact with sqlite3 db](sqlite-db.html)
+* [Ruby configuration](ruby-config.html)
+* [Ajax with ruby on rails](ajax.html)
 
 
 

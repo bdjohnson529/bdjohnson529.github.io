@@ -16,6 +16,6 @@ This site documents some of the data engineering frameworks conceived by myself 
 
 Our data is stored in SQL Server databases; I will share excerpts of SQL and Python code to demonstrate some key concepts. The concepts can be applied to other databases and programming languages - they are concepts fundamental to the problem of data engineering.
 
-## [Unit testing](sql-unit-test.html)
+## [Unit testing](unit-testing.html)
 ## [Batch data processing](batch-processing.html)
 ## [Distributed pipelines in Spark](distributed-pipelines.html)

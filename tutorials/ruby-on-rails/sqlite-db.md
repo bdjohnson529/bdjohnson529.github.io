@@ -1,6 +1,8 @@
 ---
 title: "Interact with sqlite3 db"
-layout: default
+layout: post
+parent: Ruby on Rails
+parent_path: /tutorials/ruby-on-rails
 ---
 # Interact with sqlite3 db
 
