@@ -76,4 +76,17 @@ with open(file, 'r') as f:
 		assertEmpty(file)
 ```
 
+### **Advanced Custom Queries**
+Any test case can be reduced to an assertion. For example, if we wanted to ensure that two tables had the same number of records, we could write a query to compare the `COUNT` of records in two tables.
+
+```sql
+-- expect 1
+
+SELECT
+    CASE WHEN (SELECT COUNT(*) FROM Claims_DNV) = (SELECT COUNT(*) FROM Claims)
+        THEN 1
+        ELSE 0
+    END
+``` 
+
 The idea of embedding metadata in comments opens a world of possibilities - you could build tests which are expected to return certain values, or a certain number of rows. We have found that automating unit tests has decreased the downtime of our production datasets by 10X and increased the number of pull requests per week by a similar increment.
