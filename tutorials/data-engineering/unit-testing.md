@@ -83,7 +83,7 @@ Any test case can be reduced to an assertion. For example, if we wanted to ensur
 -- expect 1
 
 SELECT
-    CASE WHEN (SELECT COUNT(*) FROM Claims_DNV) = (SELECT COUNT(*) FROM Claims)
+    CASE WHEN (SELECT COUNT(*) FROM TableA) = (SELECT COUNT(*) FROM TableB)
         THEN 1
         ELSE 0
     END
