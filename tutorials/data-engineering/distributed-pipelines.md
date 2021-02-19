@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Distributed pipelines in Spark
 parent: Data Engineering
 parent_path: /tutorials/data-engineering

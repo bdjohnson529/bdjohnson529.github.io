@@ -4,7 +4,6 @@ layout: default
 parent: Web Applications
 parent_path: /tutorials/web-applications/
 ---
-# Web app primer for product managers
 As a product manager working with web apps, you may find it interesting and helpful to learn web fundamentals. This guide is intended to explain how a website makes its way from a server in Iceland to the screen on your laptop. No prior knowledge of programming is necessary.
 
 ## Clients and servers

@@ -1,10 +1,9 @@
 ---
-layout: post
+layout: default
 title: SQL Unit Testing
 parent: Data Engineering
 parent_path: /tutorials/data-engineering
 ---
-# Unit testing
 All software teams face the common challenge of adding code to a source code base without breaking the code which already exists. Software engineers have traditionally solved this problem by executing unit tests which are run before new code is deployed to production. The unit tests verify that each "unit" of code executes properly.
 
 Python has its own [unit testing framework](https://docs.python.org/3/library/unittest.html), consisting of [assertions](https://docs.python.org/3/library/unittest.html#assert-methods) which can be used to test the validity of Python code. The basic unit of testing, a test case, is a section of code which is executed and returns a value. The return value of the test case is evaluated against an expected value; if the return value equals the expected value, the test case passes. However, if the return value differs from the expected value, the test case fails.

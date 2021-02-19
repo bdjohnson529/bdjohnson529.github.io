@@ -4,8 +4,6 @@ layout: default
 parent: Ruby on Rails
 parent_path: /tutorials/ruby-on-rails
 ---
-# Add ajax to ruby on rails 6
-
 Modify `config/webpack/environment.js`, and add the following lines:
 ```javascript
 environment.plugins.prepend('Provide',

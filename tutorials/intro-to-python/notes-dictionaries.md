@@ -1,12 +1,9 @@
 ---
-layout: post
+layout: default
 title:  "Python Dictionaries"
 parent: Intro to Python
 parent_path: /tutorials/intro-to-python/
 ---
-
-# Dictionaries
-
 ## Prerequisites
 
 This lesson builds on the concepts from the [Objects](Objects.md) and [Lists](Lessons.md) lessons.

@@ -4,8 +4,6 @@ layout: default
 parent: CMD Git
 parent_path: /tutorials/gitcmd/
 ---
-
-# Git Remote Workflow
 Most times you will configure Git with a remote repository. After you make changes, you will push those changes to the remote. Similarly, after the remote is updated, you will pull the remote changes onto your local machine.
 
 ## Pulling from remote

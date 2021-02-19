@@ -1,12 +1,9 @@
 ---
-layout: post
+layout: default
 title:  "Python Objects"
 parent: Intro to Python
 parent_path: /tutorials/intro-to-python/
 ---
-
-# Variables and Strings
-
 ## Prerequisites
 
 This lesson assumes that you know how to launch a Python session. Recall from the [installation tutorial](Installation.md) that you can launch a Python session using the **Anaconda Prompt**, or in the **Spyder** application.

@@ -7,9 +7,6 @@ parent: SDE
 parent_path: /tutorials/software-development/
 ---
 
-# Windows SDE
-
-
-## [Context Menu](context-menu.html)
-## [Python Linting in Sublime](python-linting.html)
-## [Windows subsystem for Linux](wsl.html)
+## * [Python Linting in Sublime](python-linting.html)
+## * [Windows Context Menu](context-menu.html)
+## * [Windows subsystem for Linux](wsl.html)

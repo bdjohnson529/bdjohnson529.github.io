@@ -4,10 +4,7 @@ layout: default
 parent: Intro to Python
 parent_path: /tutorials/intro-to-python/
 ---
-
-# Exercises - Week 1
-
-## Exercise 1
+## Problem 1
 
 Complete the Python program below. Print the state of each address to the console.
 
@@ -25,7 +22,7 @@ print(state2)
 print(state3)
 ```
 
-## Exercise 2
+## Problem 2
 
 Use the `sys.getsizeof` function to answer the following questions.
 

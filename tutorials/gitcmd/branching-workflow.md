@@ -4,8 +4,6 @@ layout: default
 parent: CMD Git
 parent_path: /tutorials/gitcmd/
 ---
-
-# Git Branching Workflow
 This document explains the Git workflow to add a new feature to the master branch. Commands are entered into the CMD.
 
 1. **Using CMD, navigate to the project folder.**

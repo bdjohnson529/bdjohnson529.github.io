@@ -6,9 +6,8 @@ excerpt: "Design patterns for data engineering."
 parent: Data Engineering
 parent_path: /tutorials/data-engineering
 ---
-# Design patterns for data engineering
-
 At its core, data engineering is organizing datasets so they can be consumed by software. Don't let this simple definition fool you - data engineering is a sometimes Herculean effort which can involve lots of tedious programming. Data engineering is the older, less attractive relative of data science; if you ask programmers and analysts how they would like to spend their time they will probably tell you about building machine learning models, rather than organizing massive datasets.
+
 
 However, data engineering is absolutely necessary and in my opinion, is one of the greatest sources of technical value within a company. Python is a wonderful tool for data engineering - packages like Pandas and Numpy are capable of impressive dataset transformations, and Python's intuitive syntax means that programmers without much Python experience can quickly get up to speed.
 
@@ -16,6 +15,8 @@ This site documents some of the data engineering frameworks conceived by myself 
 
 Our data is stored in SQL Server databases; I will share excerpts of SQL and Python code to demonstrate some key concepts. The concepts can be applied to other databases and programming languages - they are concepts fundamental to the problem of data engineering.
 
-## [Unit testing](unit-testing.html)
-## [Batch data processing](batch-processing.html)
-## [Distributed pipelines in Spark](distributed-pipelines.html)
+# Design patterns for data engineering
+
+## * [SQL Unit testing](unit-testing.html)
+## * [Batch data processing](batch-processing.html)
+## * [Distributed pipelines in Spark](distributed-pipelines.html)

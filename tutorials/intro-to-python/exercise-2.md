@@ -4,10 +4,7 @@ layout: default
 parent: Intro to Python
 parent_path: /tutorials/intro-to-python/
 ---
-
-# Exercises - Week 2
-
-## Exercise 1
+## Problem 1
 
 Data structures help organize information to be easy and efficient to access. Good software design is built around efficient data structures. Using Python's native data structures (*list, tuple, dict*), we can create nested data structures to organize more complex datasets.
 

@@ -1,12 +1,9 @@
 ---
-layout: post
+layout: default
 title:  "Python Installation"
 parent: Intro to Python
 parent_path: /tutorials/intro-to-python/
 ---
-
-# Installation and Setup
-
 To get started, you will need to install to install Anaconda 3.7 on your computer. Note the most recent release of Anaconda 3.7 (2020.02) has some bugs on Windows machines. I recommend installing version 2019.10 from the [Anaconda archives](https://repo.anaconda.com/archive/). If your PC has a 64 bit processor, the installer is named `Anaconda3-2019.10-Windows-x86_64.exe`.
 
 Verify your installation by searching for the **Anaconda Prompt** in the Start Menu. The Anaconda prompt is the Windows command prompt, loaded with the Anaconda environment. Launch the Anaconda prompt, and enter the following command.

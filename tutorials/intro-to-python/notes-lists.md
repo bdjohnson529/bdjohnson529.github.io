@@ -1,12 +1,9 @@
 ---
-layout: post
-title:  "Lists"
+layout: default
+title:  "Python Lists"
 parent: Intro to Python
 parent_path: /tutorials/intro-to-python/
 ---
-
-# Lists
-
 ## Prerequisites
 
 This lesson builds on the concepts from the first lesson on [Objects](Objects.md).

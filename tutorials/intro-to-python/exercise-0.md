@@ -4,11 +4,7 @@ layout: default
 parent: Intro to Python
 parent_path: /tutorials/intro-to-python/
 ---
-
-
-# Exercises - Week 0
-
-## Exercise 1
+## Problem 1
 
 Create a Python file (.py) which prints the following information to the console:
 

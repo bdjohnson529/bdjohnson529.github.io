@@ -4,8 +4,6 @@ layout: default
 parent: CMD Git
 parent_path: /tutorials/gitcmd/
 ---
-
-# Git One-person Workflow
 Git is very useful when you are working on a project by yourself. How many times have you started editing a document, only to realize that you want to go back to a previous version? Git allows you to do just that.
 
 ![Git workflow](https://github.com/EnergyInsights/Intro-To-Python/blob/master/src/images/git-workflow.png "Logo Title Text 1")
@@ -14,28 +12,28 @@ Git is very useful when you are working on a project by yourself. How many times
 1. Launch the command prompt (CMD).
 
 2. Navigate to the lowest level of the project folder.
-	- Open the folder in File Explorer
-	- Copy the filepath to the clipboard (Ctrl-L, Ctrl-C)
-	- In CMD, change directories using the following command:
 
-		`cd C:\Users\me\Documents\SecretProject`
 3. Initialize the Git repository.
+```
+git init
+```
 
-		git init
 4. Add files to the staging area.
-	- To add all files in the project folder:
+	
+	| -- | -- |
+	| Add all files | `git add -A` |
+	| Add a specific file | `git add Recipes\SecretRecipe.txt` |
+		
 
-		`git add -A`
-
-	- To add a specific file:
-
-		`git add Recipes\SecretRecipe.txt`
 5. Confirm all files which have been added to the staging area.
+```
+git status
+```
 
-		git status
 6. Commit your staging area to the repository.
-
-		git commit -m "Customize this commit message"
+```
+git commit -m "Customize this commit message"
+```
 
 ## Adding a remote repo
 Now that you have a local repo, let's add a remote repo.
