@@ -14,22 +14,27 @@ The context menu settings are saved at the following path.
 ```
 HKEY_CLASSES_ROOT\Directory\Background\shell
 ```
+
 In this folder, you will notice the programs which appear when you right click within a folder. My directory looks like this:
 ```
-AnacondaPrompt
-cmd
-Sublime
+.
+├── Directory
+|	├── Background
+|	├── shell
+|		├── Launch Sublime
+|			├── command
+|		├── Launch Anaconda Prompt
+|			├── command
 ```
-These are the same programs which appear when I right-click in a directory.
 
-### Adding a program to the Context Menu
-To add a program to the context menu, you will need to add several keys to the Registry Editor. Within the folder below, add a new key. The key will appear as a folder in the registry editor object explorer. Give the key a descriptive title, for example, my Sublime key is simply named `Sublime`.
+These are the same programs which appear when I right-click in a directory. You will be able to see the options added above when you right click within a directory.
 
-`HKEY_CLASSES_ROOT\Directory\Background\shell`
+To associate the action with a command, modify the two command keys with the values
 
-On the right hand side of the registry editor, you can view the key. Right click on the key, and select **Modify**. Change the value of the key to the title you wish displayed in the Context Menu. My Sublime key has a value of `Lanuch Sublime Here`.
-
-Now add a second key, within the first. Name this key `command`. Set the key's value to the location of the program which you wish to launch. My key has a value of `C:\Program Files\Sublime Text 3\sublime_text.exe "%V"`.
+```
+C:\Program Files\Sublime Text 3\sublime_text.exe "%V"
+cmd.exe /K C:\ProgramData\Anaconda3\Scripts\activate.bat
+```
 
 Voila! Now you should be able to launch your program from the context menu!
 
