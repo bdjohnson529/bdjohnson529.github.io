@@ -15,28 +15,20 @@ Most AI and ML algorithms also work with large batches of data. By nature, machi
 This style guide introduces a framework for structuring production batch data processing jobs. We tried to keep the framework general so it would remain relevant for different programming languages.
 
 # **The Framework**
-Most of us have encountered encountered coding projects which were difficult to understand. We all start out as beginners, so it is likely that most of us have also created messy coding projects. Consider the following file structure.
-
-```
-.
-├── BDJ - Notebook.ipynb
-├── KRJ - Notebook.ipynb
-├── testing.py
-├── dataset_1.csv
-├── dataset_2.csv
-├── execute_algorithm.py
-```
-
-The most immediate question when presented with the file structure above is, how do I execute this code?
+With no further ado... here are some Pythonic solutions to the solutions to the design problems we face as data engineers.
 
 ### 1. Single Point of Execution
-Think of each batch processing job as it's own program. The program must have a single point of execution. There must be a single file which executes the entire batch processing job. For example, you could have a file `run.py` which executes the entire pipeline. Executing the job should be as simple as entering a command in the command line.
+Batch processing jobs are going to be executed on many different computers. The entire batch processing job should be executed from a single script. Batch files are great in Windows, and shell scripts work with Linux. Throw em all in there, at the base directory of the repo.
+
 ```
-python run.py
+run.bat
+run.sh
+run.py
 ```
 
 ### 2. Isolated Environment
 A program should be capable of being run on different machines. Ideally, your program will be easy to execute on your local machine, a server, and your colleagues' computers. Every computer usually has different packages installed, which can lead to dependency conflicts. Each project should have an isolated execution environment, which is created by an `install.bat` file.
+
 
 ### 3. Self-Contained Documentation
 Documentation should be self-contained with the code. Every user who clones the repository should also have the documentation on their machine. This avoids any situations when someone is trying to use the code but cannot access the documentation. The project overview should be specified in `README.md` at the root of the repository. When possible, the project should include a *directed acyclic graph*.
@@ -56,10 +48,6 @@ The program should provide feedback to the user after execution is finished. Fee
 * execution status of each step
 * execution time of each step
 * test results
-
-This list is by no means exhaustive. The more you can standardize the formula for writing batch processing jobs, the easier it will be to deploy ETL and ML solutions. Spend less time worrying about formatting, and more time being creative!
-
-Taking into account the above framework, most of our programs resemble the file structure below.
 
 ```
 .
@@ -81,3 +69,7 @@ Taking into account the above framework, most of our programs resemble the file 
 ├── run.py
 ├── README.md
 ```
+
+This list is by no means exhaustive. The more you can standardize the formula for writing batch processing jobs, the easier it will be to deploy ETL and ML solutions. Spend less time worrying about formatting, and more time being creative!
+
+Taking into account the above framework, most of our programs resemble the file structure below.
