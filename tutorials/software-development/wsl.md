@@ -80,3 +80,5 @@ nameserver 1.1.1.1
 * [Heroku Buildpack: Python](https://elements.heroku.com/buildpacks/heroku/heroku-buildpack-python)
 * [Docker on WSL2](https://hinty.io/ivictbor/simple-way-to-docker-on-windows-10-home-with-wsl-2/)
 * [Create a Running Docker Container With Gunicorn and Flask](https://medium.com/better-programming/create-a-running-docker-container-with-gunicorn-and-flask-dcd98fddb8e0)
+* [You Still Should Have Anti-Virus With Windows Subsystem For Linux](https://www.phoronix.com/scan.php?page=news_item&px=Windows-Defender-WSL-Needed)
+* [FIX Avast Service High CPU Usage Windows 10/8/7](https://www.youtube.com/watch?v=-f_V3wrpLXA)
