@@ -6,20 +6,30 @@ parent_path: /tutorials/gitcmd/
 ---
 This tutorial explains advanced usage of Git.
 
-1. When you don't like some commits, reset to a previous commit and create a new branch.
-
-## Push an unpublished branch
-		git push origin HEAD
 
 ## Undoing a local commit
-		git reset --hard HASH
+```bash
+git reset --hard HASH
+```
 
 ## Reset a file to a specific version
-		git checkout HASH -- Path/To/File.sql
+```bash
+git checkout HASH -- Path/To/File
+```
 
 ## Delete local branch
-		git branch -D BRANCHNAME
+```bash
+git branch -D BRANCHNAME
+```
 
 ## Rebasing
-		git checkout FEATURE
-		git rebase master
+```bash
+git checkout FEATURE
+git rebase master
+```
+
+## Remove untracked local files
+```bash
+git clean -n
+git clean -f
+```

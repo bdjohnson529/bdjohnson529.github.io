@@ -9,7 +9,7 @@ parent_path: /tutorials/ruby-on-rails
 ---
 
 ## Notes
-* [Add New Scaffold](add-bootstrap.html)
+* [Add New Scaffold](new-scaffold.html)
 * [Add Bootstrap](add-bootstrap.html)
 * [Interact with sqlite3 db](sqlite-db.html)
 * [Ruby configuration](ruby-config.html)
