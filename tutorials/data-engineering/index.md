@@ -17,6 +17,7 @@ Our data is stored in SQL Server databases; I will share excerpts of SQL and Pyt
 
 # Design patterns for data engineering
 
-## * [SQL Unit testing](unit-testing.html)
+## * [SQL unit testing](unit-testing.html)
+## * [SQL cheat sheet](sql-commands.html)
 ## * [Batch data processing](batch-processing.html)
 ## * [Distributed pipelines in Spark](distributed-pipelines.html)
