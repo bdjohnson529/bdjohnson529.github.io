@@ -11,6 +11,7 @@ Python is a useful tool for building web applications.
 ## * [Containerization](containerization.html)
 ## * [Web app primer](web-app-primer.html)
 ## * [Flask apps with Dash pages](dash-in-flask.html)
+## * [Javascript variables](js-variables.html)
 
 ## **External Resources**
 * [Starter Site for Flask On Azure Web Apps](http://timmyreilly.azurewebsites.net/starter-site-for-flask-on-azure-web-apps/)
