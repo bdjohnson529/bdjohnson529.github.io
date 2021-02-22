@@ -7,8 +7,7 @@ parent_path: /tutorials/software-development/
 Our apps will typically be deployed on Linux machines. To streamline deployment, it is recommended that the apps are tested on Ubuntu before attempting to deploy them on an external machine via Azure Pipelines or Azure App Service. Fortunately, Microsoft has released a contanerized version of Linux, called the Windows Subsystem for Linux, which can be installed on Windows machines. The WSL is available for installation through the Microsoft Store, free of cost. Surprisingly enough, the majority of Linux computers in the world are actually deployed by Microsoft, so they have plenty of experience containerizing the Linux OS.
 
 ## Ubuntu Installation
-1. Install Ubuntu from the Microsoft Store.
-2. Configure Windows to recognize the Windows Subsystem for Linux. There may be an additional step here.
+Follow Microsoft's instructions to install the [windows subsytem for linux.](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 
 After Ubuntu is intalled, you can enter the Ubuntu subsystem by launching the `Ubuntu` program. Notice that the filesystem in Ubuntu is intenionally separated from the Windows filesystem - you won't see any `Documents` or `Downloads` folders. If you haven't used Linux before, it's worth making your way through [Ubuntu's quickstart guide](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview) so that you can navigate the Linux command line.
 
