@@ -8,6 +8,8 @@ parent_path: /tutorials/computer-vision/
 ---
 OpenCV can build some pretty cool things in Python...
 
+# Notes
+* [OpenCV Installation](https://docs.opencv.org/master/d2/de6/tutorial_py_setup_in_ubuntu.html)
 
 ## **External Resources**
 * [Human pose estimation](https://learnopencv.com/deep-learning-based-human-pose-estimation-using-opencv-cpp-python/)
