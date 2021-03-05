@@ -10,5 +10,5 @@ parent_path: /tutorials/software-development/
 ## * [Python Linting in Sublime](python-linting.html)
 ## * [Windows Context Menu](context-menu.html)
 ## * [Windows subsystem for Linux](wsl.html)
-## * [Install Postgres on WSl](postgres.html)
+## * [Install Postgres on WSL](postgres.html)
 ## * [Resource logging](resource-logging.html)
