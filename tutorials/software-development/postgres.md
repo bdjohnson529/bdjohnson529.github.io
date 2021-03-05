@@ -34,5 +34,22 @@ sudo /etc/init.d/postgresql reload
 sudo service postgresql restart
 ```
 
+# CLI Log In
+```bash
+psql -d mydb -U myuser
+```
+
+
+# Commands
+Show all tables
+```bash
+user-# \dt
+```
+
+Quit CLI
+```bash
+user-# \q
+```
+
 ## **External Resources**
 * [Install Postgres on WSL](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database)
