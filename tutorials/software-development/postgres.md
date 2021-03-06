@@ -38,6 +38,10 @@ sudo service postgresql restart
 ```bash
 psql -d mydb -U myuser
 ```
+Root login
+```bash
+psql -U postgres
+```
 
 
 # Commands
