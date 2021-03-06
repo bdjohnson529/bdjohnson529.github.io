@@ -17,7 +17,7 @@ sudo service postgresql status
 
 
 # Edit Authentication Config File
-The authentication config file is located at `/etc/postgresql/10/main/pg_hba.conf`, or a similar location. Change the authenticationm method from `peer` to `trust`. Specifically, I changed these two lines
+The authentication config file is located at `/etc/postgresql/10/main/pg_hba.conf`, or a similar location. Change the authentication method from `peer` to `trust`. Specifically, I changed these two lines
 ```bash
 local   all             postgres                                peer
 local   all             all                                     peer
@@ -28,7 +28,7 @@ local   all             postgres                                trust
 local   all             all                                     trust
 ```
 
-Reload, and restart the server for the changes to take effec.t
+Reload, and restart the server for the changes to take effect.
 ```bash
 sudo /etc/init.d/postgresql reload
 sudo service postgresql restart

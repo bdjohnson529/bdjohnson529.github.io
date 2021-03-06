@@ -59,14 +59,11 @@ You can also see the app running in the Docker GUI.
 ## Add an SSH key for Azure DevOps
 To clone repositories from Azure DevOps, you'll need to create an SSH key with WSL2, and add the key to your DevOps account. [Follow this tutorial.](https://docs.microsoft.com/en-us/azure/devops/repos/git/use-ssh-keys-to-authenticate?view=azure-devops)
 
-
-## Python virtual environments
-Our app will also require Python virtual environments to run.
-1. Install python3 venv
-```bash
-sudo apt-get install python3-venv
+## Accessing WSL Files
+WSL files are usually stored in the following location within the Windows file directory. Note you will need to modify the name of the Ubuntu distribution to suit the version installed on your machine.
 ```
-
+\\wsl$\Ubuntu-18.04\
+``` 
 
 # Troubleshooting
 If you're having trouble pinging `google.com` from the WSL, try the following. Edit `/etc/resolv.conf` and add the following nameserver:

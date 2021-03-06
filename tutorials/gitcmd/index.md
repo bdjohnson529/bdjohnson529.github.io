@@ -20,6 +20,11 @@ git
 
 You should see a list of common Git commands.
 
+## Cache Git Credentials
+Cache your credentials
+```
+git config --global credential.helper cache
+```
 
 # Tutorials
 

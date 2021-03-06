@@ -8,14 +8,12 @@ parent: Ruby on Rails
 parent_path: /tutorials/ruby-on-rails
 ---
 
-## Notes
-* [Add New Scaffold](new-scaffold.html)
-* [Add Bootstrap](add-bootstrap.html)
-* [Interact with sqlite3 db](sqlite-db.html)
-* [Ruby configuration](ruby-config.html)
-* [Ajax with ruby on rails](ajax.html)
-* [Google Maps API](google-maps.html)
-
+## * [Add Bootstrap](add-bootstrap.html)
+## * [Interact with sqlite3 db](sqlite-db.html)
+## * [Ruby configuration](ruby-config.html)
+## * [Ajax with ruby on rails](ajax.html)
+## * [Google Maps API](google-maps.html)
+## * [Migrations](migrations.html)
 
 ## Resources
 
