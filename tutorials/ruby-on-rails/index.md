@@ -14,6 +14,7 @@ parent_path: /tutorials/ruby-on-rails
 ## * [Ajax with ruby on rails](ajax.html)
 ## * [Google Maps API](google-maps.html)
 ## * [Migrations](migrations.html)
+## * [Webpack asset pipeline](webpack-asset-pipeline.html)
 
 ## Resources
 
