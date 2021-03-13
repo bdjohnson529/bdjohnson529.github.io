@@ -7,7 +7,7 @@ excerpt: "Notes from learning Ruby on Rails."
 parent: Ruby on Rails
 parent_path: /tutorials/ruby-on-rails
 ---
-Tested on Rails v6.1.0, using Ruby v2.6.6.
+Notes from learning Ruby on Rails. Tested on Rails v6.1.0, using Ruby v2.6.6.
 
 ## Installation
 * [Ruby introduction](ruby.html)

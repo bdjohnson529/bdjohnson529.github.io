@@ -1,5 +1,5 @@
 ---
-title: "Windows development environment"
+title: "Windows SDE"
 layout: default
 link: "tutorial"
 excerpt: "Configure Windows for software development."

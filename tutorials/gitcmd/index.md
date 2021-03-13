@@ -1,5 +1,5 @@
 ---
-title: "Command line Git"
+title: "Git CLI"
 layout: default
 permalink: /tutorials/gitcmd/
 link: "tutorial"

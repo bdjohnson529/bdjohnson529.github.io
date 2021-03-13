@@ -2,7 +2,7 @@
 title:  "Javascript variables"
 layout: default
 parent: Web Applications
-parent_path: /tutorials/web-applications/
+parent_path: /tutorials/flask/
 ---
 
 # var, let and const

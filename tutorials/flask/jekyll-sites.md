@@ -2,7 +2,7 @@
 title:  "Static jekyll websites"
 layout: default
 parent: Web Applications
-parent_path: /tutorials/web-applications/
+parent_path: /tutorials/flask/
 ---
 Jekyll is a nifty Ruby framework which is great for creating static websites. Static websites have lots of great use cases - this site is built entirely in Jekyll.
 

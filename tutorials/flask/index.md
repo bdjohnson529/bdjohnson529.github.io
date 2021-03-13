@@ -1,10 +1,10 @@
 ---
-title: "Python web applications"
+title: "Flask"
 layout: default
 link: "tutorial"
 excerpt: "Design patterns for Flask."
 parent: Web Applications
-parent_path: /tutorials/web-applications/
+parent_path: /tutorials/flask/
 ---
 Python is a useful tool for building web applications.
 

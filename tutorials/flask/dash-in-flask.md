@@ -2,7 +2,7 @@
 title:  "Flask apps with Dash pages"
 layout: default
 parent: Web Applications
-parent_path: /tutorials/web-applications/
+parent_path: /tutorials/flask/
 ---
 Dash is a nifty data science visualization library for Python. A quick glance at the [Dash app gallery](https://dash-gallery.plotly.host/Portal/) reveals a host of visualizations which are both visually appealing and practical. Notable visuals include bar charts which users can zoom in and out of, point clouds, image segmentaiton, and plenty more visuals which represent visually some of the cutting-edge data science tools.
 
