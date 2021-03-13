@@ -8,7 +8,7 @@ Webpacker is a gem which wraps `webpack`, a Javascript tool for compiling and bu
 
 In Rails 6, Webpacker is the default Javascript compiler, replacing sprockets (another library for compiling and bundling Javascript). 
 
-## Javascript in Rails 6
+# Javascript in Rails 6
 Rails 6 moved Javascript from the `app/assets` directory to `app/javascript/packs`. It is still possible to integrate JS files saved in `app/assets` but to avoid errors in the asset pipeline, it is best practice to save all JS to `app/javascript`.
 
 Rails 6 also transitioned to a new helper method used to import Javascript into HTML views. Predecessors used [`javascript_include_tag`](https://apidock.com/rails/ActionView/Helpers/AssetTagHelper/javascript_include_tag) to create an HTML script tag for Javascript files. The new helper method, [`javascript_pack_tag`](https://www.rubydoc.info/github/rails/webpacker/Webpacker%2FHelper:javascript_pack_tag) is maintained by Webpacker. Hopefully this makes for an improved integration between Webpacker and Rails.
@@ -27,7 +27,7 @@ To import `application.js` throughout the app, add the pack to `application.html
 <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
 ```
 
-## Webpacker Entry Point
+# Webpacker Entry Point
 The webpacker entry point is defined in `config/webpacker.yml`. One thing we've learned is having a singular entry point for the Javascript compiler makes it easier to troubleshoot the asset pipeline. Of course the default settings can be modified if absolutely necessary.
 ```
 source_path: app/javascript
