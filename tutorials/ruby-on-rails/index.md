@@ -21,7 +21,5 @@ Tested on Rails v6.1.0, using Ruby v2.6.6.
 * [Webpacker and Javascript](webpacker.html)
 * [SCSS Assets](scss-assets.html)
 * [Add Bootstrap](add-bootstrap.html)
-* [Ajax with ruby on rails](ajax.html)
-* [Google Maps API](google-maps.html)
 
 ## [External Resources](resources.html)
