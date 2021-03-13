@@ -15,16 +15,6 @@ layout: default
   {% endif %}
 
 
-  <img src="{{site.baseurl}}/assets/images/traveling-small.jpg" class="center">
-
-  <h1>Hi! I'm Ben.</h1>
-  <h3>I enjoy traveling, cooking, and building software. I like using technology to deliver impact; whether it's assembling drones, writing an API in Flask, building custom maps in Javascript or calibrating phone cameras using C++.</h3>
-
-  <h3>I enjoy growing engineering teams. High performing teams are like well-designed software; they are greater than the sum of their parts. I believe that differences and diversity make for a strong team.</h3>
-
-  <h3>Welcome to my website!</h3><br><br>
-
-
   <ul class="post-list">
     {% assign topics = site.pages | where: "link", "tutorial" %}
     {%- for page in topics -%}
@@ -40,6 +30,17 @@ layout: default
     {%- endfor -%}
 
   </ul>
+  
+  <img src="{{site.baseurl}}/assets/images/traveling-small.jpg" class="center">
+
+  <h1>Hi! I'm Ben.</h1>
+  <h3>I enjoy traveling, cooking, and building software. I like using technology to deliver impact; whether it's assembling drones, writing an API in Flask, building custom maps in Javascript or calibrating phone cameras using C++.</h3>
+
+  <h3>I enjoy growing engineering teams. High performing teams are like well-designed software; they are greater than the sum of their parts. I believe that differences and diversity make for a strong team.</h3>
+
+  <h3>Welcome to my website!</h3><br><br>
+
+
 
 </div>
 
