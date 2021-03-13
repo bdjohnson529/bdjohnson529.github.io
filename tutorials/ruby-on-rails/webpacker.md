@@ -13,7 +13,7 @@ Rails 6 moved Javascript from the `app/assets` directory to `app/javascript/pack
 
 Rails 6 also transitioned to a new helper method used to import Javascript into HTML views. Predecessors used [`javascript_include_tag`](https://apidock.com/rails/ActionView/Helpers/AssetTagHelper/javascript_include_tag) to create an HTML script tag for Javascript files. The new helper method, [`javascript_pack_tag`](https://www.rubydoc.info/github/rails/webpacker/Webpacker%2FHelper:javascript_pack_tag) is maintained by Webpacker. Hopefully this makes for an improved integration between Webpacker and Rails.
 
-In the default configuration, Javascript packs are saved in `app/javascript/packs`. An `application.js` file can be used to import Javascript libraries which are necessary throughout the application. Javascript files specific to a specific page can be placed in separate files, within the `packs` folder. For example, the packs folder might look like this
+In the default configuration, Javascript packs are saved in `app/javascript/packs`. An `application.js` file can be used to import Javascript libraries which are necessary throughout the application. Javascript files specific to a page can be placed in separate files, within the `packs` folder. For example, the packs folder might look like this
 ```
 ├── app
 |   ├── javascript
@@ -27,6 +27,7 @@ To import `application.js` throughout the app, add the pack to `application.html
 <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
 ```
 
+## Webpacker Entry Point
 The webpacker entry point is defined in `config/webpacker.yml`. One thing we've learned is having a singular entry point for the Javascript compiler makes it easier to troubleshoot the asset pipeline. Of course the default settings can be modified if absolutely necessary.
 ```
 source_path: app/javascript
