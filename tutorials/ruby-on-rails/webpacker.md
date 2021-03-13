@@ -57,6 +57,7 @@ module.exports = environment;
 
 ## Further reading
 * [Disable cache on Chrome](https://www.technipages.com/google-chrome-how-to-completely-disable-cache)
+* [Rails Guides - Webpacker](https://edgeguides.rubyonrails.org/webpacker.html)
 * [Understanding webpacker in Rails 6](https://prathamesh.tech/2019/08/26/understanding-webpacker-in-rails-6/)
 * [Using webpacker in your RoR app deep dive](https://blog.appsignal.com/2021/02/17/using-webpacker-in-your-ruby-on-rails-app-deep-dive.html)
-* [Introducing jQuery in Rails 6 Using Webpacker](https://www.botreetechnologies.com/blog/introducing-jquery-in-rails-6-using-webpacker/)
+* [jQuery in Rails 6 Using Webpacker](https://www.botreetechnologies.com/blog/introducing-jquery-in-rails-6-using-webpacker/)
