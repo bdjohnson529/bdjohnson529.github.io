@@ -34,7 +34,7 @@ bundle install
 
 
 ## Yarn
-Yarn is a package manager for NodeJS. To install and upgrade node modules,
+Yarn is a package manager for NodeJS. Check out [this article](https://linuxize.com/post/how-to-install-yarn-on-ubuntu-18-04/) to install Yarn on Ubuntu 18.04. To install and upgrade node modules,
 ```bash
 yarn install
 yarn upgrade
