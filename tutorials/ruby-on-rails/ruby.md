@@ -4,7 +4,7 @@ layout: default
 parent: Ruby on Rails
 parent_path: /tutorials/ruby-on-rails
 ---
-[RubyInstaller](https://rubyinstaller.org/) is a great way to install Ruby on Windows. Rbenv is a great Linux tool for managing Ruby environments.  A counterpart in Python might be *Anaconda*. Check out [this script](https://github.com/bdjohnson529/toolbox_linux/blob/master/wsl2_ubuntu_1804/install_ruby.sh) to install *rbenv* on Ubuntu.
+[RubyInstaller](https://rubyinstaller.org/) is a great way to install Ruby on Windows. Rbenv is a great Linux tool for managing Ruby environments.  A counterpart in Python might be *Anaconda*. Check out [this article](https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-18-04) to install *rbenv* on Ubuntu.
 
 Using Rbenv, we can install a specific version of Ruby:
 ```bash
