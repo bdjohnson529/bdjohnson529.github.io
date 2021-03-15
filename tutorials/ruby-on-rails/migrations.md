@@ -4,6 +4,15 @@ layout: default
 parent: Ruby on Rails
 parent_path: /tutorials/ruby-on-rails
 ---
+Migrations are a way to alter the database schema over time.
+
+## ActiveRecord Generator
+ActiveRecord generators create migration files. For example, to generate a migration to add a Weight to the Person model,
+```bash
+bin/rails g migration AddWeightToPeople
+```
+
+## Commands
 
 | Command | Description |
 | -- | -- |
@@ -15,4 +24,7 @@ parent_path: /tutorials/ruby-on-rails
 | db:reset | does db:drop, db:setup |
 | db:migrate:reset | does db:drop, db:create, db:migrate |
 
-Taken from [Stack Overflow](https://stackoverflow.com/a/10302357/9080991)
+
+## Resources
+* [RailsGuides - Active Record Migrations](https://guides.rubyonrails.org/active_record_migrations.html)
+* [Stack Overflow](https://stackoverflow.com/a/10302357/9080991)
