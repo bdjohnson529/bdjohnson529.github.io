@@ -1,13 +1,13 @@
 ---
 title:  "Javascript variables"
 layout: default
-parent: Web Applications
+parent: Flask
 parent_path: /tutorials/flask/
 ---
 
-# var, let and const
-
 Javascript ES6 was released in 2015, and introduced several new concepts to Javascript. ES6 introduced *let* and *const* object declarations, to accompany the existing *var* declaration. There are slight differences between variables declared using *var*, *let*, and *const*.
+
+## var, let and const
 
 **var** declarations are globally scoped, or locally scoped within a function. Variables declared using **var** are mutable objects, meaning the value can be changed after the variable is initialized. **const** creates an immutable object, which cannot be updated. There is a slight nuance here. The **const** object itself is immutable, but its properties can be changed.
 
