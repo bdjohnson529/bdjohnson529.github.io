@@ -4,7 +4,12 @@ layout: default
 parent: Flask
 parent_path: /tutorials/flask/
 ---
-We will use buildpacks to generate a Docker image of our source code. Make sure that Docker is installed and [configured for WSL2](wsl.md).
+Developers often experience problems when deploying software. For every app, there are tens or hundreds of libraries which need to be installed, sometimes in a particular order and with specific version numbers. Each operating system is slightly different, so the process of deploying an app on a new computer can be quite difficult.
+
+Container deployment solves a lot of these configuration issues. The app runs in a container, which is a virtualized environment. The container will execute the exact same way on every machine. In theory, this makes it easier to deploy since you can choose any machine to use as the server. There is no configuration necessary - your app should simply run on the machine you’ve chosen.
+
+Docker is the most popular tool for containerizing apps. Docker images are created using a Dockerfile. Buildpacks can be used to generate a Dockerfile for a Python application.
+
 
 ## Setup
 Install buildpacks.

@@ -6,7 +6,7 @@ parent_path: /tutorials/flask/
 ---
 Dash is a nifty data science visualization library for Python. A quick glance at the [Dash app gallery](https://dash-gallery.plotly.host/Portal/) reveals a host of visualizations which are both visually appealing and practical. Notable visuals include bar charts which users can zoom in and out of, point clouds, image segmentaiton, and plenty more visuals which represent visually some of the cutting-edge data science tools.
 
-Believe it or not, Dash is actually built on Flask, the Python web application framework which is considered the featherweight cousin on Django. Each Dash app is actually an instance of a Flask application. This is great news for anyone who is familiar with one of the technologies because it means, in theory, the other will be similar.
+Dash is actually built on Flask. Each Dash app is actually an instance of a Flask application. This is great news for anyone who is familiar with one of the technologies because it means, in theory, the other will be similar.
 
 Dash and Flask do have their similarities, one of which is how they handle events. In Flask, client requests are handled by `route` methods, which route the request to a Python function. For example, a simple page can be created with the following code:
 
