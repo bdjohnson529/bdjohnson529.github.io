@@ -12,10 +12,12 @@ Flask is a Python framework for building web applications.
 * [Web app primer](web-app-primer.html)
 
 ## Development
+* [Application Entry Point](application-entry-point.html)
 * [Routes and Resources](routes-resources.html)
-* [Templates](templates.html)
+* [Templates and Jinja](templates.html)
 * [Dash pages](dash-in-flask.html)
-* [Flask-SQLAlchemy](flask-sqlalchemy.html)
+* [SQLAlchemy and ORMs](flask-sqlalchemy.html)
+* [SQLite and config variables](sqlite.html)
 * [Javascript variables](js-variables.html)
 
 
@@ -23,4 +25,4 @@ Flask is a Python framework for building web applications.
 * [Azure Pipelines](azure-pipelines.html)
 * [Containerization](containerization.html)
 
-## [External Resources](resources.html)
+## [Further Reading](references.html)

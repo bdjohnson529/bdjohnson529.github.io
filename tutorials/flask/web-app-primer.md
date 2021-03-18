@@ -4,10 +4,10 @@ layout: default
 parent: Flask
 parent_path: /tutorials/flask/
 ---
-As a product manager working with web apps, you may find it interesting and helpful to learn web fundamentals. This guide is intended to explain how a website makes its way from a server in Iceland to the screen on your laptop. No prior knowledge of programming is necessary.
+As a product manager working with web apps, you may find it interesting and helpful to learn web fundamentals. This guide is intended to explain how a website makes its way from a server to the screen on your laptop. No prior knowledge of programming is necessary.
 
 ## Clients and servers
-Computers connected to the web are called clients and servers. Clients make requests, and servers fulfill those requests as responses. Your laptop is the client, and the computer which hosts the website is the server. Most of the web is stored in data centers located in Iceland. Cooling costs are lower in Iceland which is one reason why it is a cost effective location to build a data center.
+Computers connected to the web are called clients and servers. Clients make requests, and servers fulfill those requests as responses. Your laptop is the client, and the computer which hosts the website is the server.
 
 * **Static web servers** send files to the client, as-is. This website is hosted on a static web server.
 * **Dynamic web servers** update files before sending them to a client, usually using a database. Google Maps is hosted on a dynamic web server.
