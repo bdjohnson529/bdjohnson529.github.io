@@ -1,12 +1,11 @@
 ---
 title: "Modifying commit messages"
 layout: default
+parent: Git CLI
+parent_path: /tutorials/gitcmd/
 ---
 
-# Advanced Git
-This tutorial explains how to modify Git commit messages.
-
-Suppose you have made some commits, pushed them to remote, and now realize that you want to change the title of the commit message. To do this, you will first need to check out the old commit, using the COMMIT-HASH
+Suppose you have made some commits, pushed them to remote, and now realize that you want to change the title of the commit message. To do this, you will first need to check out the old commit
 ```bash
 git checkout COMMITHASH
 ```

@@ -1,7 +1,7 @@
 ---
-title: "Sync remote"
+title: "Sync with Remote"
 layout: default
-parent: CMD Git
+parent: Git CLI
 parent_path: /tutorials/gitcmd/
 ---
 Most times you will configure Git with a remote repository. After you make changes, you will push those changes to the remote. Similarly, after the remote is updated, you will pull the remote changes onto your local machine.

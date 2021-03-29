@@ -1,7 +1,7 @@
 ---
 title: "Advanced Git commands"
 layout: default
-parent: CMD Git
+parent: Git CLI
 parent_path: /tutorials/gitcmd/
 ---
 This tutorial explains advanced usage of Git.
