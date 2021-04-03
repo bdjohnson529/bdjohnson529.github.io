@@ -6,10 +6,15 @@ parent_path: /tutorials/software-development/
 ---
 Our apps will typically be deployed on Linux machines. To streamline deployment, it is recommended that the apps are tested on Ubuntu before attempting to deploy them on an external machine via Azure Pipelines or Azure App Service. Fortunately, Microsoft has released a contanerized version of Linux, called the Windows Subsystem for Linux, which can be installed on Windows machines. The WSL is available for installation through the Microsoft Store, free of cost. Surprisingly enough, the majority of Linux computers in the world are actually deployed by Microsoft, so they have plenty of experience containerizing the Linux OS.
 
-## Ubuntu Installation
-Follow Microsoft's instructions to install the [windows subsytem for linux.](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
-
-After Ubuntu is intalled, you can enter the Ubuntu subsystem by launching the `Ubuntu` program. Notice that the filesystem in Ubuntu is intenionally separated from the Windows filesystem - you won't see any `Documents` or `Downloads` folders. If you haven't used Linux before, it's worth making your way through [Ubuntu's quickstart guide](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview) so that you can navigate the Linux command line.
+## Mounted Drives
+Access Windows filesystem from Linux
+```
+/mnt/c
+```
+Access Linux filesystem from Windows
+```
+\\wsl$\Ubuntu-18.04\
+``` 
 
 ## Sublime Text Installation
 Presumably you will need some sort of text editor to edit your code. You can use VisualStudio, which reportedly has a nice integration with WSL2. I prefer to use Sublime Text, as it is a lighter application. To launch Sublime text from the Linux command line, you'll need to configure the `~/.bashrc` file, which defines aliases for the Linux command line.
@@ -59,11 +64,6 @@ You can also see the app running in the Docker GUI.
 ## Add an SSH key for Azure DevOps
 To clone repositories from Azure DevOps, you'll need to create an SSH key with WSL2, and add the key to your DevOps account. [Follow this tutorial.](https://docs.microsoft.com/en-us/azure/devops/repos/git/use-ssh-keys-to-authenticate?view=azure-devops)
 
-## Accessing WSL Files
-WSL files are usually stored in the following location within the Windows file directory. Note you will need to modify the name of the Ubuntu distribution to suit the version installed on your machine.
-```
-\\wsl$\Ubuntu-18.04\
-``` 
 
 # Troubleshooting
 If you're having trouble pinging `google.com` from the WSL, try the following. Edit `/etc/resolv.conf` and add the following nameserver:
