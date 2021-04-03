@@ -14,8 +14,6 @@ Notes from learning Ruby on Rails. Tested on Rails v6.1.0, using Ruby v2.6.6.
 
 ## Databases
 * [Database migrations](migrations.html)
-* [sqlite3 db](sqlite-db.html)
-* [postgres db](postgres.html)
 
 ## Assets
 * [Webpacker and Javascript](webpacker.html)
