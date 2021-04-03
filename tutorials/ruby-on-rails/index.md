@@ -19,6 +19,7 @@ Notes from learning Ruby on Rails. Tested on Rails v6.1.0, using Ruby v2.6.6.
 
 ## Assets
 * [Webpacker and Javascript](webpacker.html)
+* [Stimulus JS](stimulus.html)
 * [SCSS Assets](scss-assets.html)
 * [Add Bootstrap](add-bootstrap.html)
 
