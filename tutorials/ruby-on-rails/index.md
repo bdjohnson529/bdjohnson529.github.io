@@ -16,9 +16,8 @@ Notes from learning Ruby on Rails. Tested on Rails v6.1.0, using Ruby v2.6.6.
 * [Database migrations](migrations.html)
 
 ## Assets
-* [Webpacker and Javascript](webpacker.html)
-* [Stimulus JS](stimulus.html)
+* [Webpacker](webpacker.html)
 * [SCSS Assets](scss-assets.html)
-* [Add Bootstrap](add-bootstrap.html)
+* [Bootstrap](add-bootstrap.html)
 
 ## [External Resources](resources.html)

@@ -26,3 +26,6 @@ parent_path: /tutorials/ruby-on-rails
 * [Google maps api v3 with rails](https://pjbelo.medium.com/using-google-maps-api-v3-with-rails-5-2-b066a4b2cf14)
 * [Google maps api v3 with rails](https://pjbelo.medium.com/using-google-maps-api-v3-with-rails-5-2-b066a4b2cf14)
 * [Distance between coordinates in javascript](https://stackoverflow.com/q/18883601/9080991)
+
+# StimulusJS
+* [Build a Dynamic Search with Stimulus.js and Rails 6](https://medium.com/swlh/build-a-dynamic-search-with-stimulus-js-and-rails-6-56b537a44579)
