@@ -1,13 +1,13 @@
 ---
 layout: default
-title: SQL Cheat Sheet
+title: SQL Server
 parent: Data Engineering
 parent_path: /tutorials/data-engineering
 ---
 
 These queries are tested in T-SQL on a physical SQL Server.
 
-## Commands
+## Cheat Sheet
 
 Get column names in table:
 ```sql
