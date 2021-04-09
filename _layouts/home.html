@@ -16,7 +16,7 @@ layout: default
 
 
   <ul class="post-list">
-    {% assign topics = site.pages | where: "link", "tutorial" %}
+    {% assign topics = site.pages | where: "link", "landing" | sort: "page" %}
     {%- for page in topics -%}
       <li>
         <span class="post-meta">{{ page.date | date: date_format }}</span>
