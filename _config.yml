@@ -15,6 +15,9 @@ exclude:
 
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
+  
+
+sass:
+  sass_dir: assets/css

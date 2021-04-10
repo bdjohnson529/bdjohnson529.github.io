@@ -14,6 +14,24 @@ layout: default
     {% assign posts = site.posts %}
   {% endif %}
 
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        One column
+      </div>
+      <div class="col-sm">
+        One column
+      </div>
+      <div class="col-sm">
+        One column
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="card card-body">
+    <p>Testing</p>
+  </div>
 
   <ul class="post-list">
     {% assign topics = site.pages | where: "link", "landing" | sort: "page" %}
