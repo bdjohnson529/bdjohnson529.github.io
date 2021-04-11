@@ -1,8 +1,10 @@
 ---
 layout: default
 title: SQL Unit Testing
-parent: Data Engineering
-parent_path: /python/data-engineering
+topic: data-engineering
+order: 2
+parent: Python
+parent_path: /python/
 ---
 All software teams face the common challenge of adding code to a source code base without breaking the code which already exists. Software engineers have traditionally solved this problem by executing unit tests which are run before new code is deployed to production. The unit tests verify that each "unit" of code executes properly.
 

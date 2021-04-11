@@ -4,17 +4,6 @@ title:  "Python Lists"
 parent: Intro to Python
 parent_path: /python/crash-course/
 ---
-## Prerequisites
-
-This lesson builds on the concepts from the first lesson on [Objects](Objects.md).
-
-### Videos
-
-Let's continue following along the videos produced by Avinash and The Codex.
-
-* [#5 Introduction to Lists](https://www.youtube.com/watch?v=SWEH2_UtJUE&list=PLB5jA40tNf3scN7gwpDOx0gBm-otmXVoz&index=5)
-
-## Lists
 
 Storing individual values in variables is great, but how do we store entire datasets in a program's memory? Surely there has to be a better way than storing each value of the dataset in a separate variable. What if we want to access the thousandth element of the dataset? To store collections of information, programs use data structures.
 

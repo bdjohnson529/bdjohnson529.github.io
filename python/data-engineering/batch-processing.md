@@ -1,11 +1,12 @@
 ---
 layout: default
 title: Batch data processing
-parent: Data Engineering
-parent_path: /python/data-engineering
+topic: data-engineering
+order: 1
+parent: Python
+parent_path: /python/
 ---
 
-### What is batch processing?
 Batch processing is the processing of a large volume of data at the same time. Data is collected over a period of time, and then processed all at once. Batch data processing can be contrasted with real-time data processing, where data is processed as it is collected.
 
 Most data processing jobs in the data warehouse are batch processing jobs. Unless you are working with streaming data, chances are, a large batch of data is loaded into your data warehouse for further processing. Computation resources can be optimized for batch processing jobs, for example, Spark parellelizes your code to run on large batches of data.

@@ -7,11 +7,39 @@ parent_path: /python/
 ---
 These are my python resources.
 
-{% assign topics = site.pages | where: "link", "python" %}
+
+## Python for Beginnners
+<ul>
+{% assign topics = site.pages | where: "topic", "introduction" | sort: 'order' %}
 {%- for page in topics -%}
-  <h3>
-    <a class="post-link" href="{{ page.url | relative_url }}">
+  <li>
+    <a href="{{ page.url | relative_url }}">
       {{ page.title | escape }}
     </a>
-  </h3>
+  </li>
 {%- endfor -%}
+</ul>
+
+## Data Engineering
+<ul>
+{% assign topics = site.pages | where: "topic", "data-engineering" | sort: 'order' %}
+{%- for page in topics -%}
+  <li>
+    <a href="{{ page.url | relative_url }}">
+      {{ page.title | escape }}
+    </a>
+  </li>
+{%- endfor -%}
+</ul>
+
+## Flask
+<ul>
+{% assign topics = site.pages | where: "topic", "flask" | sort: 'order' %}
+{%- for page in topics -%}
+  <li>
+    <a href="{{ page.url | relative_url }}">
+      {{ page.title | escape }}
+    </a>
+  </li>
+{%- endfor -%}
+</ul>

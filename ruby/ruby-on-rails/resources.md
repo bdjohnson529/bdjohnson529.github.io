@@ -1,8 +1,10 @@
 ---
 title: "External Resources"
 layout: default
-parent: Ruby on Rails
-parent_path: /ruby/ruby-on-rails
+topic: ruby-on-rails
+order: 5
+parent: Ruby
+parent_path: /ruby/
 ---
 
 * [Dissecting rails migrations](https://blog.appsignal.com/2020/04/14/dissecting-rails-migrationsl.html)

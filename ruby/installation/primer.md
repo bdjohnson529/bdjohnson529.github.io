@@ -1,16 +1,12 @@
 ---
-title: "Ruby introduction"
+title: "Ruby Primer"
 layout: default
-parent: Ruby on Rails
-parent_path: /ruby/ruby-on-rails
+topic: ruby-installation
+order: 1
+parent: Ruby
+parent_path: /ruby/
 ---
-[RubyInstaller](https://rubyinstaller.org/) is a great way to install Ruby on Windows. Rbenv is a great Linux tool for managing Ruby environments.  A counterpart in Python might be *Anaconda*. Check out [this article](https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-18-04) to install *rbenv* on Ubuntu.
 
-Using Rbenv, we can install a specific version of Ruby:
-```bash
-rbenv install -v 2.6.6
-rbenv global 2.6.6
-```
 
 ## Ruby Gems
 Gem is the package manager for Ruby. Each language has one or more package managers - Python uses *pip*, and Javascript uses *npm*. Ruby packages are called *gems*. To install the rubocop gem, for example, you can type the following into the command line.

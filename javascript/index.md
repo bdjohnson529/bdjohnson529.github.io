@@ -5,13 +5,13 @@ link: "landing"
 parent: Javascript
 parent_path: /javascript/
 ---
-These are my javascript resources.
+These are my notes from learning Javascript.
 
+<ul>
 {% assign topics = site.pages | where: "link", "javascript" %}
 {%- for page in topics -%}
-  <h3>
-    <a class="post-link" href="{{ page.url | relative_url }}">
-      {{ page.title | escape }}
-    </a>
-  </h3>
+  <li><a href="{{ page.url | relative_url }}">
+    {{ page.title | escape }}
+  </a></li>
 {%- endfor -%}
+</ul>

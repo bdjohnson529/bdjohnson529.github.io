@@ -1,8 +1,10 @@
 ---
 title: "Azure Pipelines"
 layout: default
-parent: Flask
-parent_path: /python/flask/
+topic: flask
+order: 7
+parent: Python
+parent_path: /python/
 ---
 Deploying an app can be a tedious process. In a basic deployment scenario, the developer needs to copy the app from a Github repository to the computer where the app is deployed. There are lots of configuration issues which can arise in this situation.
 

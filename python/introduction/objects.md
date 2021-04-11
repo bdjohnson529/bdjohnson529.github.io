@@ -1,22 +1,11 @@
 ---
 layout: default
 title:  "Python Objects"
-parent: Intro to Python
-parent_path: /python/crash-course/
+order: 3
+topic: introduction
+parent: Python
+parent_path: /python/
 ---
-## Prerequisites
-
-This lesson assumes that you know how to launch a Python session. Recall from the [installation tutorial](Installation.md) that you can launch a Python session using the **Anaconda Prompt**, or in the **Spyder** application.
-
-### **Videos**
-
-Avinash Jain has made several excellent videos to explain beginning Python concepts. We will be using his videos in this course. Note that Avinash is using the Pycharm IDE, which has a different user interface than Spyder. All of the commands you see in the video will also work in the Spyder IDE.
-
-* [#2 Variables and Multiple Assignment](https://www.youtube.com/watch?v=1W228rb267o&list=PLB5jA40tNf3scN7gwpDOx0gBm-otmXVoz&index=2)
-* [#3 Arithmetic Operators and Strings](https://www.youtube.com/watch?v=oKSn-yOrXgU&list=PLB5jA40tNf3scN7gwpDOx0gBm-otmXVoz&index=3)
-* [#4 Placeholders in Strings](https://www.youtube.com/watch?v=LGlne-Ac7k8&list=PLB5jA40tNf3scN7gwpDOx0gBm-otmXVoz&index=4)
-
-## Storing Variables
 
 The most basic function of a computer program is to store variables in memory, and access those same variables later on in the program. Your Python session uses your computer's Random Access Memory. RAM is very efficient with read and write times, which makes it the ideal candidate for storing program data.
 

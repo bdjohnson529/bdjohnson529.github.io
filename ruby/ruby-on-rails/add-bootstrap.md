@@ -1,8 +1,10 @@
 ---
-title: "Add bootstrap to ruby on rails 6"
+title: "Bootstrap and Rails"
 layout: default
-parent: Ruby on Rails
-parent_path: /ruby/ruby-on-rails
+topic: ruby-on-rails
+order: 3
+parent: Ruby
+parent_path: /ruby/
 ---
 Note that rails 6 uses webpacker and so bootstrap integration is different from rails 5. This tutorial is transcripted from [Chris Lam's](https://www.youtube.com/watch?v=BIxd501hP-g) video on Youtube.
 

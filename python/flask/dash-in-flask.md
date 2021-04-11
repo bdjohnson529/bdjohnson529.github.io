@@ -1,8 +1,10 @@
 ---
-title:  "Flask apps with Dash pages"
+title:  "Dash pages"
 layout: default
-parent: Flask
-parent_path: /python/flask/
+topic: flask
+order: 4
+parent: Python
+parent_path: /python/
 ---
 
 Dash is actually built on Flask. Each Dash app is actually an instance of a Flask application. This is great news for anyone who is familiar with one of the technologies because it means, in theory, the other will be similar.

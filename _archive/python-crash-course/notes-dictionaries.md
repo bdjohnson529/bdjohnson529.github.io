@@ -4,19 +4,6 @@ title:  "Python Dictionaries"
 parent: Intro to Python
 parent_path: /python/crash-course/
 ---
-## Prerequisites
-
-This lesson builds on the concepts from the [Objects](Objects.md) and [Lists](Lessons.md) lessons.
-
-### Videos
-
-Let's continue following along the videos produced by Avinash and The Codex.
-
-* [#5 Dictionaries](https://www.youtube.com/watch?v=tcXBlk1CCx8&list=PLB5jA40tNf3scN7gwpDOx0gBm-otmXVoz&index=6)
-* [#6 Tuples](https://www.youtube.com/watch?v=2Df-unA0xNA&list=PLB5jA40tNf3scN7gwpDOx0gBm-otmXVoz&index=7)
-
-
-## Structured Data
 
 Using lists, we can store collections of objects. To access an element, `L[i]`, in a list, we only need know the index of the element `i`. Lists are excellent ways to represent sequences of data. Let's say I store monthly kWh consumption over a period of 12 months in the list object `monthly_kwh`. It is a straight forward to retrieve the consumption in January, June or December using the index, `monthly_kwh[i]`.
 
@@ -32,7 +19,7 @@ For the list to be useful, we will need to forever remember the order of items. 
 
 Dictionaries offer an easier way to store and access structured data. A dictionary stores information in key-value pairs. A key can be a string, integer, float, or any immutable object.
 
-Dictionaries use the syntax `{"key1":"value1","key2":"value2"...}`. Let's store the building information in a dictionary. We can now access the building vintage using the `"Vintage"` index. Try it! Enter the commands below into your console.
+Dictionaries in Python use the syntax `{"key1":"value1","key2":"value2"...}`. Let's store the building information in a dictionary. We can now access the building vintage using the `"Vintage"` index. Try it! Enter the commands below into your console.
 
 ```
 buildingInfo = {"Vintage": 1977, "Square Footage": 2000, "Fuel Type": "Gas"}

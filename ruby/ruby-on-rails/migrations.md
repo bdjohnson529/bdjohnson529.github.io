@@ -1,8 +1,10 @@
 ---
 title: "Migrations"
 layout: default
-parent: Ruby on Rails
-parent_path: /ruby/ruby-on-rails
+topic: ruby-on-rails
+order: 0
+parent: Ruby
+parent_path: /ruby/
 ---
 Migrations are a way to alter the database schema over time.
 

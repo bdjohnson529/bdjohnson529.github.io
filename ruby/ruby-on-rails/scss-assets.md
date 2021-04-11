@@ -1,8 +1,10 @@
 ---
 title: "SCSS Assets"
 layout: default
-parent: Ruby on Rails
-parent_path: /ruby/ruby-on-rails
+topic: ruby-on-rails
+order: 2
+parent: Ruby
+parent_path: /ruby/
 ---
 Assets can be placed in one of two places, `public`, or `app/assets`. Assets in the `public` folder are served as is, while assets in the `app/assets` folder are precompiled. Most assets we write are going to be precompiled; for example, SCSS files are compiled into CSS.
 

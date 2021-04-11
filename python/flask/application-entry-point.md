@@ -1,8 +1,10 @@
 ---
 title:  "App Entry Point"
 layout: default
-parent: Flask
-parent_path: /python/flask/
+topic: flask
+order: 1
+parent: Python
+parent_path: /python/
 ---
 
 Flask leaves it up to us to stitch all of our code together. I have found it helpful to define a single file which the web server interacts with when hosting the app. In this file, you define the [Flask object](https://flask.palletsprojects.com/en/1.1.x/api/). Everything needs to get routed back to this object at some point - this is the object which is used to run the server.
