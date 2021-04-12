@@ -1,6 +1,8 @@
 ---
-title: "Modifying commit messages"
+title: "Modify commit messages"
 layout: default
+topic: git-workflow
+order: 2
 parent: Git CLI
 parent_path: /gitcli/
 ---

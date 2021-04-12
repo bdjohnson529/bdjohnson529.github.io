@@ -1,6 +1,8 @@
 ---
 title: "Sync with Remote"
 layout: default
+topic: git-workflow
+order: 1
 parent: Git CLI
 parent_path: /gitcli/
 ---

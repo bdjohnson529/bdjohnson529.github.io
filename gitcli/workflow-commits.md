@@ -1,6 +1,8 @@
 ---
 title: "Commits"
 layout: default
+topic: git-workflow
+order: 0
 parent: Git CLI
 parent_path: /gitcli/
 ---
