@@ -14,6 +14,7 @@ Notes from configuring Windows for software development.
 
 ## Windows Subsystem for Linux
 * [Introduction](wsl.html)
+* [SSH Keys](ssh-keys.html)
 * [Docker](wsl-docker.html)
 * [Sublime](wsl-sublime.html)
 
