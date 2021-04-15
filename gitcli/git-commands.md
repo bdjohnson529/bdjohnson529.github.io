@@ -61,3 +61,8 @@ Remove untracked local files
 git clean -n
 git clean -f
 ```
+
+Unstage all files
+```bash
+git reset
+```
