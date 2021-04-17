@@ -9,7 +9,12 @@ parent_path: /ruby/
 Migrations are a way to alter the database schema over time.
 
 ## ActiveRecord Generator
-ActiveRecord generators create migration files. For example, to generate a migration to add a Weight to the Person model,
+Create a new scaffold
+```bash
+bin/rails g scaffold Post name:string title:string content:text
+```
+
+Add a column to a table
 ```bash
 bin/rails g migration AddWeightToPeople
 ```
