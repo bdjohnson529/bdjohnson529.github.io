@@ -1,6 +1,8 @@
 ---
 title: "sqlite3 db"
 layout: default
+topic: databases
+order: 1
 parent: Databases
 parent_path: /databases/
 ---

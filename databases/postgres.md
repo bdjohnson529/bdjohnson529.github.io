@@ -1,6 +1,8 @@
 ---
-title: "Postgres"
+title: "postgres"
 layout: default
+topic: databases
+order: 2
 parent: Databases
 parent_path: /databases/
 ---
@@ -21,11 +23,11 @@ Show all tables
 ```bash
 user-# \dt
 ```
-
 Quit CLI
 ```bash
 user-# \q
 ```
+
 
 # Start and Stop Server
 The following commands can be used to start and stop the Postgres server, and check the status of the server.
