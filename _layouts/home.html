@@ -14,7 +14,7 @@ layout: default
     {% assign posts = site.posts %}
   {% endif %}
 
-  <input type="number">
+  <input pattern="[0-9]*" type="text">
 
   <ul class="post-list">
     {% assign topics = site.pages | where: "link", "landing" | sort: "title" %}
