@@ -14,9 +14,20 @@ Create a new scaffold
 bin/rails g scaffold Post name:string title:string content:text
 ```
 
-Add a column to a table
+Generate migration
 ```bash
 bin/rails g migration AddWeightToPeople
+```
+
+
+## Migrations
+Add default value
+```ruby
+class AddDefaultValueToPeople < ActiveRecord::Migration[6.1]
+  def change
+    change_column :people, :title, :string, :default => "Mr./Ms."
+  end
+end
 ```
 
 ## Commands
