@@ -29,3 +29,25 @@ print reverse_numbers(1,2)
 
 >> [1,2]
 ```
+
+Arguments can be passed to Ruby methods by separating the arguments and the method with a space.
+```ruby
+puts add_numbers 1, 2
+```
+
+
+This functionality breaks down when you include additional statements after the method. For example, a ternary statement cannot be used after calling a function method with a space.
+This functionality breaks down when you are using more complicated statements, like ternary statements.
+```ruby
+item = 'orange'
+fruits = ['orange', 'grapefruit', 'apple']
+
+x = fruits.include? item ? 'You picked a fruit' : 'You did not pick a fruit'
+
+puts x
+```
+
+In the example above, the argument `item` should be passed to the method `include?` using parentheses.
+```ruby
+x = fruits.include?(item) ? 'You picked a fruit' : 'You did not pick a fruit'
+```
