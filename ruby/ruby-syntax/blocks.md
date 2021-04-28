@@ -32,4 +32,6 @@ end
 
 y = 10
 puts say_hello { |x| x + 2 }
+
+>> 5
 ```
