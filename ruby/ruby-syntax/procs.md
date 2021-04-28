@@ -17,7 +17,7 @@ puts make_upper.call("test")
 >> TEST
 ```
 
-To pass a proc into a method, the proc needs to be converted into a block. Methods accept blocks as arguments, but not procs.
+To pass a proc into a method, the proc needs to be converted into a block. Methods accept blocks as arguments, but not procs. In the example below, the ampersand prefix converts the `make_upper` proc into a block.
 ```ruby
 def say_hello
     yield("test")
