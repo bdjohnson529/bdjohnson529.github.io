@@ -19,7 +19,8 @@ These are my Ruby resources. I run Ruby on Ubuntu, typically 16.04 or 18.04.
 
 ## Ruby Syntax
 There are many great sites out there for learning Ruby. Some of my favorites are :
-* [docs.ruby-lang.org](https://docs.ruby-lang.org/en/2.4.0/Object.html)
+* [docs.ruby-lang.org](https://docs.ruby-lang.org/en/2.4.0/)
+* [The Koans](http://rubykoans.com)
 
 These are some of my notes from practicing Ruby.
 
