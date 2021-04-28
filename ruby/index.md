@@ -18,6 +18,11 @@ These are my Ruby resources. I run Ruby on Ubuntu, typically 16.04 or 18.04.
 </ul>
 
 ## Ruby Syntax
+There are many great sites out there for learning Ruby. Some of my favorites are :
+* [docs.ruby-lang.org](https://docs.ruby-lang.org/en/2.4.0/Object.html)
+
+These are some of my notes from practicing Ruby.
+
 <ul>
 {% assign topics = site.pages | where: "topic", "ruby-syntax" | sort: 'order' %}
 {%- for page in topics -%}

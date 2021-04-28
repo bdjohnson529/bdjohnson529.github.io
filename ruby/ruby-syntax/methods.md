@@ -19,7 +19,7 @@ puts add_numbers(1,2)
 >> 3
 ```
 
-Ruby methods have an implicit return value, equal to the final method instruction. An explicit `return` statement can also be used to return one or more values.
+Ruby methods have an implicit return value, equal to the final method instruction. An explicit `return` statement can also be used to return one or more values. The Ruby parser will prioritize the explicit value over the implicit value.
 ```ruby
 def reverse_numbers(x, y)
     return y, x
