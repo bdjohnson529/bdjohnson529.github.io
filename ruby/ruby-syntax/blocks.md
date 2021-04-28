@@ -6,7 +6,7 @@ order: 2
 parent: Ruby
 parent_path: /ruby/
 ---
-Blocks are, well, *blocks* of code which can be passed into methods. A block can be enclosed by `do..end` or by brackets `{..}`. For example, blocks are often passed to iterators, to perform the same function on members of an array. Consider this code:
+Blocks are, well, *blocks* of code which can be passed into methods. A block can be enclosed by `do..end` or by brackets `{..}`. Blocks are often passed to iterators, to perform the same function on members of an array. Consider this code:
 ```ruby
 [1,2,3].each do |x|
     puts x + 2
