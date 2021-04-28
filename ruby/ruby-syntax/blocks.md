@@ -22,14 +22,14 @@ The same code can be written by enclosing the block in brackets.
 [1,2,3].each do |x| { puts x + 2}
 ```
 
-Blocks can be passed to methods. The block of code is evaluated within the method.
+Blocks can be passed to methods. The block is evaluated within the scope of the method. In the example below, notice how the block evaluates the value of `y` which is set within the method, rather than the value which is set globally.
 
 ```ruby
 def say_hello
-    yield
+    y = 3
+    yield(y)
 end
 
-say_hello { puts "Hello" }
-
->> Hello
+y = 10
+puts say_hello { |x| x + 2 }
 ```
