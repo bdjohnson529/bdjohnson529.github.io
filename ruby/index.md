@@ -5,7 +5,9 @@ link: "landing"
 parent: Ruby
 parent_path: /ruby/
 ---
-These are my Ruby resources. I run Ruby on Ubuntu, typically 16.04 or 18.04.
+There are many great sites out there for learning Ruby. Some of my favorites are :
+* [docs.ruby-lang.org](https://docs.ruby-lang.org/en/2.4.0/)
+* [The Koans](http://rubykoans.com)
 
 ## Installation
 <ul>
@@ -17,7 +19,9 @@ These are my Ruby resources. I run Ruby on Ubuntu, typically 16.04 or 18.04.
   {%- endfor -%}
 </ul>
 
-## Ruby Syntax
+## Ruby Notes
+These are some of my notes from learning and practicing Ruby.
+
 <ul>
 {% assign topics = site.pages | where: "topic", "ruby-syntax" | sort: 'order' %}
 {%- for page in topics -%}
