@@ -24,17 +24,3 @@ List schema for TABLE
 ```bash
 .schema TABLE
 ```
-
-
-## Resetting the database
-Reset entire database
-```
-rails db:reset
-```
-
-Which is equivalent to these commands
-```
-rails db:drop
-rails db:migrate
-rails db:seed
-```
