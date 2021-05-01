@@ -8,9 +8,9 @@ parent_path: /python/
 These are my python resources.
 
 
-## Python for Beginnners
+## Python Paradigms
 <ul>
-{% assign topics = site.pages | where: "topic", "introduction" | sort: 'order' %}
+{% assign topics = site.pages | where: "topic", "python-paradigms" | sort: 'order' %}
 {%- for page in topics -%}
   <li>
     <a href="{{ page.url | relative_url }}">

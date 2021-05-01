@@ -2,7 +2,7 @@
 layout: default
 title:  "Python Dictionaries"
 order: 2
-topic: introduction
+topic: python-paradigms
 parent: Python
 parent_path: /python/
 ---

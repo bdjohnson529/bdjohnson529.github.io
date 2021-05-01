@@ -2,7 +2,7 @@
 layout: default
 title:  "Python Lists"
 order: 1
-topic: introduction
+topic: python-paradigms
 parent: Python
 parent_path: /python/
 ---

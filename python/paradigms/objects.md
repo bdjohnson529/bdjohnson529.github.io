@@ -2,7 +2,7 @@
 layout: default
 title:  "Python Objects"
 order: 3
-topic: introduction
+topic: python-paradigms
 parent: Python
 parent_path: /python/
 ---
