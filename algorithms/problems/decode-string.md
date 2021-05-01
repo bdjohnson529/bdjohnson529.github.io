@@ -1,7 +1,7 @@
 ---
 title: "Decode string"
 layout: default
-topic: algorithms
+topic: algorithm-problems
 order: 0
 parent: Algorithms
 parent_path: /algorithms/
