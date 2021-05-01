@@ -1,7 +1,7 @@
 ---
 title: "Linked Lists"
 layout: default
-topic: algorithms
+topic: algorithm-concepts
 order: 1
 parent: Algorithms
 parent_path: /algorithms/
