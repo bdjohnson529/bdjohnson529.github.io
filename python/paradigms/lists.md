@@ -7,9 +7,7 @@ parent: Python
 parent_path: /python/
 ---
 
-Storing individual values in variables is great, but how do we store entire datasets in a program's memory? Surely there has to be a better way than storing each value of the dataset in a separate variable. What if we want to access the thousandth element of the dataset? To store collections of information, programs use data structures.
-
-Lists are the most basic type of data structure. **List manipulation is one of Python's strong suits.** Lists can be collections of integers, floats, or strings. It turns out, lists can be used to store any object. The syntax remains the same when constructing a list of floats, `[1.0, 2.0, 3.0]`, a list of integers, `[1, 2, 3]`, or a list of strings `['a', 'b', 'c']`.
+Lists are a basic type of data structure. Lists can be collections of integers, floats, or strings. It turns out, lists can be used to store any object. The syntax remains the same when constructing a list of floats, `[1.0, 2.0, 3.0]`, a list of integers, `[1, 2, 3]`, or a list of strings `['a', 'b', 'c']`.
 
 
 ```
@@ -30,11 +28,7 @@ Lists are more efficient in memory than the sum of of their components. An int c
 
 How is this possible? As it turns out, each variable, or *object*, has some overhead information which is stored along with the value. There are also instructions which tell the Python interpreter how to interact with the object. The structural information is stored separately from the value.
 
-![Variable Allocation](images/variable.png "Varible Allocation")
-
 Within the list, Python stores **only one** set of the object's structural information. If a list contains 5 integers, the list only contains one set of structural information for the *integer* object. Each integer in the list can reference the common set of structural information in the list object. This explains why lists are more memory efficient.
-
-![List Allocation](images/list_allocation.png "List Allocation")
 
 Don't take my word for it! Find the size of a list with one integer, two integers, and three integers, and compare them to the size of individual integer object (28 bytes, as we found above). How much does the size increment with each additional integer?
 
