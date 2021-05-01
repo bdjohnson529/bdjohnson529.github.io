@@ -27,7 +27,7 @@ N + ... + 4 + 2 + 1
 
 The final term in the sum can be written as
 ```
-2^k
+N = 2^k
 ```
 
 Notice that there are also `k` terms in the sum. The previous equation can be rewritten as
