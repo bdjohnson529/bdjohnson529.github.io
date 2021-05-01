@@ -5,7 +5,7 @@ link: "landing"
 parent: Python
 parent_path: /python/
 ---
-These are my python resources.
+These are some notes from learning and teaching Python.
 
 
 ## Python Paradigms
