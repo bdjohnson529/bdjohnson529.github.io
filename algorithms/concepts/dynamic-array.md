@@ -1,5 +1,5 @@
 ---
-title: "Linked Lists"
+title: "Dynamic Arrays"
 layout: default
 topic: algorithm-concepts
 order: 1
