@@ -10,7 +10,7 @@ A binary search takes a sorted array, and searches by dividing the array in half
 ```
 {1,5,8,9,11,13,15,19,21}
 ```
-To search for the number 8, we could implement our own binary search. First we check in the element at the midpoint, `11`. Since `9` is less than `11`, we will next take the the first half of the array. We will once again divide this subarray in half.
+To search for the number 8, we could implement our own binary search. First we check in the element at the midpoint, `11`. Since `9` is less than `11`, we will take the the first half of the array, and once again divide this array in half.
 
 The steps would look as follows
 ```
