@@ -19,11 +19,17 @@ Install SublimeLinter using Package Control.
 [Flake8](https://flake8.pycqa.org/en/latest/) is a Python linter.
 
 Install Flake8, using `pip`. It is recommended to install Flake8 in a virtual environment to avoid permissions issues.
-```
+```bash
 conda create -n lintenv python=3.6
 conda activate lintenv
 conda install -c anaconda flake8
 ```
+
+Find the executable path. We will use this when configuring Sublime.
+```bash
+where flake8
+```
+
 
 **Install SublimeLinter-Flake8.**
 * Launch Package Control : `(Ctrl+Shift+P)`
@@ -32,8 +38,8 @@ conda install -c anaconda flake8
 
 **Configure Sublime settings to use Flake8.**
 * Select `Preferences -> Package Settings -> SublimeLinter -> Settings`
-* Add the following lines to the User settings. Replace the Windows path with the path to your virtual environment.
-```
+* Add the following lines to the User settings. Replace the executable path with the path to your executable.
+```json
     "linters": {
         "flake8": {
             "@disable": false,
@@ -43,11 +49,9 @@ conda install -c anaconda flake8
             "ignore": "",
             "max-complexity": 10,
             "max-line-length": null,
-            "select": ""
+            "select": "",
+            "executable": ["C:\\Users\\username\\anaconda3\\envs\\lintenv\\Scripts\\flake8.exe"],
         }
-    },
-    "paths": {
-        "windows": ["C:/Users/username/.conda/envs/lintenv/Scripts"]
     },
 ```
 
