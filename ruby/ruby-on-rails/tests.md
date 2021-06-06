@@ -6,25 +6,30 @@ order: 8
 parent: Ruby
 parent_path: /ruby/
 ---
-Tests are used to validate parts of our code (models, views or controllers) and ensure consistent code quality. Tests are saved in the directory `tests`. To run the tests, use `bin/rails test`.
+Tests are used to validate our code and ensure it executes as expected. Rails has baked tests into the framework. When you create a model or controller, skeleton test files are generated in the directory `tests`. To execute application tests, run `bin/rails test`.
 
-## Model Tests
+Test data is saved in the `test` database, which is defined in `config/database.yml`. Test data is defined using [`fixtures`](https://guides.rubyonrails.org/testing.html#the-low-down-on-fixtures) -- YAML files which are processed by the Rails engine. The rails engine can interpret ERB in the YAML files, a handy feature which allows us to write functions to populate the test database with lots of data.
+
+# Model Tests
 There are several ways we can test our models.
-1. Model is valid with valid attributes
-2. Model is invalid without a required attribute
+1. Attribute validation
 
-Using fixtures, we can define the data for the data for the tests in a `yml` file. If we are testing a `user` model, we could use the fixture `test/fixtures/users.yml` to define the following:
+
+## Attribute validation
+[ActiveRecord validations](https://guides.rubyonrails.org/active_record_validations.html) can be used to validate model attributes, before creating an instance of the model. Validations prevent bad data from entering the database. Let's say you have a person model, with a height attribute. The height attribute is specified in inches, and must be a decimal number. Using an ActiveRecord validation, you could validate the `height` attribute.
+```ruby
+class Person < ApplicationRecord
+  validates: :height, presence: true, numericality: { only_float: true, greater_than: 0 }
+```
+
+You could write a complementary test to capture this validation.
 ```ruby
 # test/fixtures/users.yml
 one:
     name: Joe Schmoe
-    email: joe@yahoo.com
-```
+    height: 173
 
-This data can be accessed by the users test:
-```ruby
-require "test_helper"
-
+# test/models/user_test.rb
 class UserTest < ActiveSupport::TestCase
   def setup
     @user = users(:one)
@@ -34,9 +39,9 @@ class UserTest < ActiveSupport::TestCase
     assert @user.valid?
   end
 
-  test 'User is invalid without name' do
-    @user.name = nil
-    refute @user.valid?, 'Saved user without a name'
+  test 'User is invalid with invalid height' do
+    @user.height = 'string'
+    refute @user.valid?, 'Saved user without a non-numeric height'
   end
 ```
 
